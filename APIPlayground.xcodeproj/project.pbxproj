@@ -44,7 +44,63 @@
 		AA333333333333333333333A /* WeatherKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA333333333333333333333B /* WeatherKitView.swift */; };
 		AA444444444444444444444A /* EventKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA444444444444444444444B /* EventKitView.swift */; };
 		AA555555555555555555555A /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA555555555555555555555B /* ContactsView.swift */; };
+		BB111111111111111111111A /* DeliveryActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB111111111111111111111B /* DeliveryActivityAttributes.swift */; };
+		BB222222222222222222222A /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB222222222222222222222B /* AppIntents.swift */; };
+		BB333333333333333333333A /* BreathingActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB333333333333333333333B /* BreathingActivityAttributes.swift */; };
+		BB444444444444444444444A /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB444444444444444444444B /* BreathingView.swift */; };
+		EE111111111111111111111A /* LiveActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE111111111111111111111B /* LiveActivityListView.swift */; };
+		EE222222222222222222222A /* LiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE222222222222222222222B /* LiveActivityAttributes.swift */; };
+		EE333333333333333333333A /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE333333333333333333333B /* PomodoroView.swift */; };
+		EE444444444444444444444A /* ParkingMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE444444444444444444444B /* ParkingMeterView.swift */; };
+		EE555555555555555555555A /* CaffeineTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE555555555555555555555B /* CaffeineTrackerView.swift */; };
+		EE666666666666666666666A /* WorkoutRestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE666666666666666666666B /* WorkoutRestView.swift */; };
+		EE777777777777777777777A /* AuctionCountdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE777777777777777777777B /* AuctionCountdownView.swift */; };
+		EE888888888888888888888A /* RocketLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE888888888888888888888B /* RocketLaunchView.swift */; };
+		EE999999999999999999999A /* SportsScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE999999999999999999999B /* SportsScoreView.swift */; };
+		EEAAAAAAAAAAAAAAAAAAAAA /* EggTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */; };
+		FF111111111111111111111A /* AllLiveActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF111111111111111111111B /* AllLiveActivities.swift */; };
+		FF222222222222222222222A /* LiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE222222222222222222222B /* LiveActivityAttributes.swift */; };
+		CC111111111111111111111A /* PlaygroundWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */; };
+		CC222222222222222222222A /* DeliveryLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC222222222222222222222B /* DeliveryLiveActivity.swift */; };
+		CC333333333333333333333A /* DeliveryActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB111111111111111111111B /* DeliveryActivityAttributes.swift */; };
+		CC555555555555555555555A /* BreathingActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB333333333333333333333B /* BreathingActivityAttributes.swift */; };
+		CC666666666666666666666A /* BreathingLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC666666666666666666666B /* BreathingLiveActivity.swift */; };
+		CC444444444444444444444A /* PlaygroundWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DD111111111111111111111A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111111111111111111111B /* ShareViewController.swift */; };
+		DD222222222222222222222A /* APIInspector.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000A /* APIInspector.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC500000000000000000000A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1000060233D8F0000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC600000000000000000000A;
+			remoteInfo = PlaygroundWidgetsExtension;
+		};
+		DD500000000000000000000A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1000060233D8F0000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD600000000000000000000A;
+			remoteInfo = APIInspector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC700000000000000000000A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC444444444444444444444A /* PlaygroundWidgetsExtension.appex in Embed Foundation Extensions */,
+				DD222222222222222222222A /* APIInspector.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		A1000010233D8F0000000001 /* APIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,10 +143,47 @@
 		AA444444444444444444444B /* EventKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitView.swift; sourceTree = "<group>"; };
 		AA555555555555555555555B /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		AA666666666666666666666B /* APIPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APIPlayground.entitlements; sourceTree = "<group>"; };
+		BB111111111111111111111B /* DeliveryActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryActivityAttributes.swift; sourceTree = "<group>"; };
+		BB222222222222222222222B /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
+		BB333333333333333333333B /* BreathingActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingActivityAttributes.swift; sourceTree = "<group>"; };
+		BB444444444444444444444B /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		CC666666666666666666666B /* BreathingLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingLiveActivity.swift; sourceTree = "<group>"; };
+		EE111111111111111111111B /* LiveActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityListView.swift; sourceTree = "<group>"; };
+		EE222222222222222222222B /* LiveActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityAttributes.swift; sourceTree = "<group>"; };
+		EE333333333333333333333B /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
+		EE444444444444444444444B /* ParkingMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingMeterView.swift; sourceTree = "<group>"; };
+		EE555555555555555555555B /* CaffeineTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaffeineTrackerView.swift; sourceTree = "<group>"; };
+		EE666666666666666666666B /* WorkoutRestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutRestView.swift; sourceTree = "<group>"; };
+		EE777777777777777777777B /* AuctionCountdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionCountdownView.swift; sourceTree = "<group>"; };
+		EE888888888888888888888B /* RocketLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchView.swift; sourceTree = "<group>"; };
+		EE999999999999999999999B /* SportsScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreView.swift; sourceTree = "<group>"; };
+		EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerView.swift; sourceTree = "<group>"; };
+		FF111111111111111111111B /* AllLiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLiveActivities.swift; sourceTree = "<group>"; };
+		CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlaygroundWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundWidgetsBundle.swift; sourceTree = "<group>"; };
+		CC222222222222222222222B /* DeliveryLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLiveActivity.swift; sourceTree = "<group>"; };
+		CC333333333333333333333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD000000000000000000000A /* APIInspector.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = APIInspector.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD111111111111111111111B /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		DD333333333333333333333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A1000020233D8F0000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC800000000000000000000A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD800000000000000000000A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -104,6 +197,8 @@
 			isa = PBXGroup;
 			children = (
 				A1000031233D8F0000000001 /* APIPlayground */,
+				CC900000000000000000000A /* PlaygroundWidgets */,
+				DD900000000000000000000A /* APIInspector */,
 				A1000032233D8F0000000001 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,6 +241,20 @@
 				AA333333333333333333333B /* WeatherKitView.swift */,
 				AA444444444444444444444B /* EventKitView.swift */,
 				AA555555555555555555555B /* ContactsView.swift */,
+				BB111111111111111111111B /* DeliveryActivityAttributes.swift */,
+				BB222222222222222222222B /* AppIntents.swift */,
+				BB333333333333333333333B /* BreathingActivityAttributes.swift */,
+				BB444444444444444444444B /* BreathingView.swift */,
+				EE111111111111111111111B /* LiveActivityListView.swift */,
+				EE222222222222222222222B /* LiveActivityAttributes.swift */,
+				EE333333333333333333333B /* PomodoroView.swift */,
+				EE444444444444444444444B /* ParkingMeterView.swift */,
+				EE555555555555555555555B /* CaffeineTrackerView.swift */,
+				EE666666666666666666666B /* WorkoutRestView.swift */,
+				EE777777777777777777777B /* AuctionCountdownView.swift */,
+				EE888888888888888888888B /* RocketLaunchView.swift */,
+				EE999999999999999999999B /* SportsScoreView.swift */,
+				EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */,
 				A100010B233D8F0000000001 /* Info.plist */,
 				AA666666666666666666666B /* APIPlayground.entitlements */,
 				A1000006233D8F0000000001 /* Assets.xcassets */,
@@ -158,6 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				A1000010233D8F0000000001 /* APIPlayground.app */,
+				CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */,
+				DD000000000000000000000A /* APIInspector.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -170,6 +281,27 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		CC900000000000000000000A /* PlaygroundWidgets */ = {
+			isa = PBXGroup;
+			children = (
+				CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */,
+				CC222222222222222222222B /* DeliveryLiveActivity.swift */,
+				CC666666666666666666666B /* BreathingLiveActivity.swift */,
+				FF111111111111111111111B /* AllLiveActivities.swift */,
+				CC333333333333333333333B /* Info.plist */,
+			);
+			path = PlaygroundWidgets;
+			sourceTree = "<group>";
+		};
+		DD900000000000000000000A /* APIInspector */ = {
+			isa = PBXGroup;
+			children = (
+				DD111111111111111111111B /* ShareViewController.swift */,
+				DD333333333333333333333B /* Info.plist */,
+			);
+			path = APIInspector;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,15 +312,52 @@
 				A1000041233D8F0000000001 /* Sources */,
 				A1000020233D8F0000000001 /* Frameworks */,
 				A1000042233D8F0000000001 /* Resources */,
+				CC700000000000000000000A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CC400000000000000000000A /* PBXTargetDependency */,
+				DD400000000000000000000A /* PBXTargetDependency */,
 			);
 			name = APIPlayground;
 			productName = APIPlayground;
 			productReference = A1000010233D8F0000000001 /* APIPlayground.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CC600000000000000000000A /* PlaygroundWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA00000000000000000000A /* Build configuration list for PBXNativeTarget "PlaygroundWidgetsExtension" */;
+			buildPhases = (
+				CCB00000000000000000000A /* Sources */,
+				CC800000000000000000000A /* Frameworks */,
+				CCC00000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlaygroundWidgetsExtension;
+			productName = PlaygroundWidgetsExtension;
+			productReference = CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DD600000000000000000000A /* APIInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDA00000000000000000000A /* Build configuration list for PBXNativeTarget "APIInspector" */;
+			buildPhases = (
+				DDB00000000000000000000A /* Sources */,
+				DD800000000000000000000A /* Frameworks */,
+				DDC00000000000000000000A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIInspector;
+			productName = APIInspector;
+			productReference = DD000000000000000000000A /* APIInspector.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -201,6 +370,12 @@
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					A1000040233D8F0000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					CC600000000000000000000A = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					DD600000000000000000000A = {
 						CreatedOnToolsVersion = 15.0;
 					};
 				};
@@ -219,6 +394,8 @@
 			projectRoot = "";
 			targets = (
 				A1000040233D8F0000000001 /* APIPlayground */,
+				CC600000000000000000000A /* PlaygroundWidgetsExtension */,
+				DD600000000000000000000A /* APIInspector */,
 			);
 		};
 /* End PBXProject section */
@@ -230,6 +407,20 @@
 			files = (
 				A1000007233D8F0000000001 /* Preview Assets.xcassets in Resources */,
 				A1000005233D8F0000000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC00000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC00000000000000000000A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,10 +466,59 @@
 				AA333333333333333333333A /* WeatherKitView.swift in Sources */,
 				AA444444444444444444444A /* EventKitView.swift in Sources */,
 				AA555555555555555555555A /* ContactsView.swift in Sources */,
+				BB111111111111111111111A /* DeliveryActivityAttributes.swift in Sources */,
+				BB222222222222222222222A /* AppIntents.swift in Sources */,
+				BB333333333333333333333A /* BreathingActivityAttributes.swift in Sources */,
+				BB444444444444444444444A /* BreathingView.swift in Sources */,
+				EE111111111111111111111A /* LiveActivityListView.swift in Sources */,
+				EE222222222222222222222A /* LiveActivityAttributes.swift in Sources */,
+				EE333333333333333333333A /* PomodoroView.swift in Sources */,
+				EE444444444444444444444A /* ParkingMeterView.swift in Sources */,
+				EE555555555555555555555A /* CaffeineTrackerView.swift in Sources */,
+				EE666666666666666666666A /* WorkoutRestView.swift in Sources */,
+				EE777777777777777777777A /* AuctionCountdownView.swift in Sources */,
+				EE888888888888888888888A /* RocketLaunchView.swift in Sources */,
+				EE999999999999999999999A /* SportsScoreView.swift in Sources */,
+				EEAAAAAAAAAAAAAAAAAAAAA /* EggTimerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCB00000000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC111111111111111111111A /* PlaygroundWidgetsBundle.swift in Sources */,
+				CC222222222222222222222A /* DeliveryLiveActivity.swift in Sources */,
+				CC333333333333333333333A /* DeliveryActivityAttributes.swift in Sources */,
+				CC555555555555555555555A /* BreathingActivityAttributes.swift in Sources */,
+				CC666666666666666666666A /* BreathingLiveActivity.swift in Sources */,
+				FF111111111111111111111A /* AllLiveActivities.swift in Sources */,
+				FF222222222222222222222A /* LiveActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB00000000000000000000A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD111111111111111111111A /* ShareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC400000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC600000000000000000000A /* PlaygroundWidgetsExtension */;
+			targetProxy = CC500000000000000000000A /* PBXContainerItemProxy */;
+		};
+		DD400000000000000000000A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD600000000000000000000A /* APIInspector */;
+			targetProxy = DD500000000000000000000A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A1000070233D8F0000000001 /* Debug */ = {
@@ -403,6 +643,7 @@
 		A1000072233D8F0000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = APIPlayground/APIPlayground.entitlements;
@@ -434,6 +675,7 @@
 		A1000073233D8F0000000001 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = APIPlayground/APIPlayground.entitlements;
@@ -462,6 +704,106 @@
 			};
 			name = Release;
 		};
+		CCD00000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlaygroundWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlaygroundWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.PlaygroundWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCE00000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlaygroundWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PlaygroundWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.PlaygroundWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDD00000000000000000000A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIInspector/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "API Inspector";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.APIInspector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDE00000000000000000000A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = APIInspector/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "API Inspector";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.APIInspector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -479,6 +821,24 @@
 			buildConfigurations = (
 				A1000072233D8F0000000001 /* Debug */,
 				A1000073233D8F0000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA00000000000000000000A /* Build configuration list for PBXNativeTarget "PlaygroundWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD00000000000000000000A /* Debug */,
+				CCE00000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDA00000000000000000000A /* Build configuration list for PBXNativeTarget "APIInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDD00000000000000000000A /* Debug */,
+				DDE00000000000000000000A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
