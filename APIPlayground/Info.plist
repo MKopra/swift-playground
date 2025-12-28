@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSSupportsLiveActivities</key>
+    <true/>
+    <key>NSSupportsLiveActivitiesFrequentUpdates</key>
+    <true/>
+    <key>NSCameraUsageDescription</key>
+    <string>This app uses the camera to demonstrate the Camera API.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app uses your location to demonstrate the Location API.</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app uses the microphone for speech recognition and audio level monitoring.</string>
+    <key>NSSpeechRecognitionUsageDescription</key>
+    <string>This app uses speech recognition to convert your voice to text.</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>This app scans for nearby Bluetooth devices to demonstrate the Bluetooth API.</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>This app scans for nearby Bluetooth devices to demonstrate the Bluetooth API.</string>
+    <key>NSFaceIDUsageDescription</key>
+    <string>This app uses Face ID to demonstrate biometric authentication.</string>
+    <key>NSMotionUsageDescription</key>
+    <string>This app uses motion sensors to demonstrate the Motion and Altimeter APIs.</string>
+    <key>NSHealthShareUsageDescription</key>
+    <string>This app reads your health data to demonstrate the HealthKit API including steps, heart rate, and sleep analysis.</string>
+    <key>NSHealthUpdateUsageDescription</key>
+    <string>This app can write health data to demonstrate the HealthKit API.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>This app accesses your photo library to select images for ML classification.</string>
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>This app saves photos and videos to your photo library.</string>
+    <key>NFCReaderUsageDescription</key>
+    <string>This app uses NFC to read tags and demonstrate the Core NFC API.</string>
+    <key>NSAppleMusicUsageDescription</key>
+    <string>This app accesses Apple Music to demonstrate the MusicKit API including library browsing and playback.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>This app accesses your calendar to demonstrate the EventKit API including creating and viewing events.</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>This app requires full calendar access to demonstrate creating, editing, and deleting calendar events.</string>
+    <key>NSRemindersUsageDescription</key>
+    <string>This app accesses your reminders to demonstrate the EventKit API including creating and managing reminders.</string>
+    <key>NSRemindersFullAccessUsageDescription</key>
+    <string>This app requires full reminders access to demonstrate creating, editing, and completing reminders.</string>
+    <key>NSContactsUsageDescription</key>
+    <string>This app accesses your contacts to demonstrate the Contacts API including browsing and creating contacts.</string>
+</dict>
+</plist>
