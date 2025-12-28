@@ -84,7 +84,7 @@ struct ContentView: View {
                 case "Drawing": PencilKitView()
                 case "Music": MusicKitView()
                 case "Wallet": WalletView()
-                case "Live Activity": LiveActivityView()
+                case "Live Activity": LiveActivityListView()
                 case "Data Scanner": DataScannerDemoView()
                 case "Weather": WeatherKitView()
                 case "Calendar": EventKitView()

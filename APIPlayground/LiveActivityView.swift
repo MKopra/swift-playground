@@ -360,7 +360,7 @@ struct LAInfoRow: View {
 }
 
 // MARK: - LiveActivityManager
-/// Manages Live Activity lifecycle and updates.
+/// Manages Live Activity lifecycle and updates using real ActivityKit APIs.
 @MainActor
 class LiveActivityManager: ObservableObject {
     @Published var isActivityActive = false
@@ -368,16 +368,17 @@ class LiveActivityManager: ObservableObject {
     @Published var activityState = "None"
     @Published var pushToken: String?
     @Published var availabilityStatus = "Checking..."
+    @Published var currentStatus: DeliveryStatus = .preparing
+
+    private var currentActivity: Activity<DeliveryActivityAttributes>?
 
     init() {
         checkAvailability()
+        observeActivityState()
     }
 
     private func checkAvailability() {
-        // Check if ActivityKit is available
         if #available(iOS 16.1, *) {
-            // ActivityKit requires Widget Extension
-            // Check if activities are enabled
             let activitiesEnabled = ActivityAuthorizationInfo().areActivitiesEnabled
             if activitiesEnabled {
                 availabilityStatus = "Live Activities are enabled"
@@ -389,61 +390,172 @@ class LiveActivityManager: ObservableObject {
         }
     }
 
-    func startActivity(orderNumber: String, driverName: String, estimatedMinutes: Int) {
-        // In a real app, you would:
-        // 1. Define ActivityAttributes in a shared framework
-        // 2. Create Activity<YourAttributes>
-        // 3. Request to start with initial content
+    private func observeActivityState() {
+        // Observe any existing activities on launch
+        if #available(iOS 16.1, *) {
+            for activity in Activity<DeliveryActivityAttributes>.activities {
+                currentActivity = activity
+                activityId = activity.id
+                isActivityActive = true
+                updateStateFromActivity(activity)
+                observeActivity(activity)
+                break // Just use the first one
+            }
+        }
+    }
 
-        // Simulating activity start
-        isActivityActive = true
-        activityId = UUID().uuidString
-        activityState = "Active"
-
-        // Simulate push token generation
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            self.pushToken = UUID().uuidString.replacingOccurrences(of: "-", with: "")
+    private func observeActivity(_ activity: Activity<DeliveryActivityAttributes>) {
+        Task {
+            // Observe state changes
+            for await state in activity.activityStateUpdates {
+                await MainActor.run {
+                    switch state {
+                    case .active:
+                        self.activityState = "Active"
+                    case .ended:
+                        self.activityState = "Ended"
+                        self.isActivityActive = false
+                        self.currentActivity = nil
+                    case .dismissed:
+                        self.activityState = "Dismissed"
+                        self.isActivityActive = false
+                        self.currentActivity = nil
+                    case .stale:
+                        self.activityState = "Stale"
+                    @unknown default:
+                        self.activityState = "Unknown"
+                    }
+                }
+            }
         }
 
-        print("""
-        [LiveActivity] Started activity
-        - Order: \(orderNumber)
-        - Driver: \(driverName)
-        - ETA: \(estimatedMinutes) minutes
-        """)
+        Task {
+            // Observe push token updates
+            for await token in activity.pushTokenUpdates {
+                let tokenString = token.map { String(format: "%02x", $0) }.joined()
+                await MainActor.run {
+                    self.pushToken = tokenString
+                }
+            }
+        }
+    }
+
+    private func updateStateFromActivity(_ activity: Activity<DeliveryActivityAttributes>) {
+        activityState = switch activity.activityState {
+        case .active: "Active"
+        case .ended: "Ended"
+        case .dismissed: "Dismissed"
+        case .stale: "Stale"
+        @unknown default: "Unknown"
+        }
+    }
+
+    func startActivity(orderNumber: String, driverName: String, estimatedMinutes: Int) {
+        guard #available(iOS 16.1, *) else { return }
+
+        let attributes = DeliveryActivityAttributes(
+            orderNumber: orderNumber,
+            restaurantName: "API Playground Demo",
+            orderItems: "Demo delivery"
+        )
+
+        let initialState = DeliveryActivityAttributes.ContentState(
+            driverName: driverName,
+            estimatedDeliveryTime: Date().addingTimeInterval(TimeInterval(estimatedMinutes * 60)),
+            currentStatus: .preparing,
+            progress: 0.1
+        )
+
+        do {
+            // Note: pushType: .token requires Push Notification entitlements
+            // Using nil for local-only updates (no server push support)
+            let activity = try Activity.request(
+                attributes: attributes,
+                content: .init(state: initialState, staleDate: nil),
+                pushType: nil
+            )
+
+            currentActivity = activity
+            activityId = activity.id
+            isActivityActive = true
+            activityState = "Active"
+            currentStatus = .preparing
+
+            observeActivity(activity)
+
+            print("[LiveActivity] Started real activity: \(activity.id)")
+        } catch {
+            print("[LiveActivity] Failed to start: \(error.localizedDescription)")
+            availabilityStatus = "Error: \(error.localizedDescription)"
+        }
     }
 
     func updateActivity(progress: Double, estimatedMinutes: Int) {
-        guard isActivityActive else { return }
+        guard #available(iOS 16.1, *),
+              let activity = currentActivity else { return }
 
-        // In a real app:
-        // activity.update(using: updatedContentState)
+        // Determine status based on progress
+        let status: DeliveryStatus
+        if progress >= 1.0 {
+            status = .delivered
+        } else if progress >= 0.85 {
+            status = .arriving
+        } else if progress >= 0.66 {
+            status = .onTheWay
+        } else if progress >= 0.33 {
+            status = .pickedUp
+        } else {
+            status = .preparing
+        }
 
-        activityState = progress >= 1.0 ? "Completed" : "Active"
+        currentStatus = status
 
-        print("""
-        [LiveActivity] Updated activity
-        - Progress: \(Int(progress * 100))%
-        - ETA: \(estimatedMinutes) minutes
-        """)
+        let updatedState = DeliveryActivityAttributes.ContentState(
+            driverName: activity.content.state.driverName,
+            estimatedDeliveryTime: Date().addingTimeInterval(TimeInterval(estimatedMinutes * 60)),
+            currentStatus: status,
+            progress: progress
+        )
+
+        Task {
+            await activity.update(
+                ActivityContent(state: updatedState, staleDate: nil)
+            )
+            print("[LiveActivity] Updated - Status: \(status.rawValue), Progress: \(Int(progress * 100))%")
+        }
     }
 
     func endActivity(delivered: Bool) {
-        guard isActivityActive else { return }
+        guard #available(iOS 16.1, *),
+              let activity = currentActivity else { return }
 
-        // In a real app:
-        // await activity.end(using: finalContent, dismissalPolicy: .immediate)
+        let finalState = DeliveryActivityAttributes.ContentState(
+            driverName: activity.content.state.driverName,
+            estimatedDeliveryTime: Date(),
+            currentStatus: delivered ? .delivered : .pickedUp,
+            progress: delivered ? 1.0 : activity.content.state.progress
+        )
 
-        isActivityActive = false
-        activityState = delivered ? "Delivered" : "Cancelled"
+        Task {
+            await activity.end(
+                ActivityContent(state: finalState, staleDate: nil),
+                dismissalPolicy: delivered ? .default : .immediate
+            )
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            self.activityId = nil
-            self.activityState = "None"
-            self.pushToken = nil
+            await MainActor.run {
+                isActivityActive = false
+                activityState = delivered ? "Delivered" : "Cancelled"
+                currentActivity = nil
+
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    self.activityId = nil
+                    self.activityState = "None"
+                    self.pushToken = nil
+                }
+            }
+
+            print("[LiveActivity] Ended - Delivered: \(delivered)")
         }
-
-        print("[LiveActivity] Ended activity - Delivered: \(delivered)")
     }
 }
 
