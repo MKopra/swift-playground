@@ -1,0 +1,176 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/BiometricsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Biometrics",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "Secure Vault",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Unlocked",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Locked",
+        "location": {
+          "startingColumn": 61,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Authenticate",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 284
+        }
+      },
+      {
+        "comment": "",
+        "key": "No items in vault",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap + to add passwords, notes, or cards",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 352
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Item",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 392
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Item",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 519
+        }
+      },
+      {
+        "comment": "",
+        "key": "Item Type",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 476
+        }
+      },
+      {
+        "comment": "",
+        "key": "Details",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 486
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password Generator",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 497
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 477
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 487
+        }
+      },
+      {
+        "comment": "",
+        "key": "Card Number",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "Password",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use This Password",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 512
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 505
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 523
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 526
+        }
+      }
+    ]
+  },
+  "version": 1
+}

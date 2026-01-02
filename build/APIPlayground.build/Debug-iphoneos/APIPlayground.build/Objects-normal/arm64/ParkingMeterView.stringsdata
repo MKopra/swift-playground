@@ -1,0 +1,216 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ParkingMeterView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Parking Meter",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Meter Running",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Active Meter",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ • %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "Expires at %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Meter Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "License Plate",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Location",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "Spot Info",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "Minutes",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "15 min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "30 min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "1 hour",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "2 hours",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "3 hours",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 176
+        }
+      },
+      {
+        "comment": "",
+        "key": "4 hours",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configuration",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Meter",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "+15 min",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 212
+        }
+      },
+      {
+        "comment": "",
+        "key": "+30 min",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Parking",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Never get a parking ticket again. The Live Activity changes color as your meter expires, giving you urgent visual feedback right from your Lock Screen.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "About",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 260
+        }
+      }
+    ]
+  },
+  "version": 1
+}

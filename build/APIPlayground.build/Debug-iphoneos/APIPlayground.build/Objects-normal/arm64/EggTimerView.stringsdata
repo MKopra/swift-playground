@@ -1,0 +1,200 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/EggTimerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Egg Timer",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cooking...",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready to Cook",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "DONE!",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld × %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Raw",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "Perfect",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cooking Progress",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 173
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Egg Style",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quantity",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "eggs",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quantity",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Timer",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done - Clear Timer",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 258
+        }
+      },
+      {
+        "comment": "",
+        "key": "+30s",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 269
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 290
+        }
+      },
+      {
+        "comment": "",
+        "key": "Perfect eggs require precise timing. Start from boiling water for boiled eggs, or use the poached timer for water at a gentle simmer.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 305
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cooking Guide",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 310
+        }
+      }
+    ]
+  },
+  "version": 1
+}

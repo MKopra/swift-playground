@@ -1,0 +1,280 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/WeatherKitView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Weather",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 75
+        }
+      },
+      {
+        "comment": "",
+        "key": "Fetching weather data...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "View",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hourly",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Daily",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Details",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "%.4f, %.4f",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retry",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "WeatherKit Setup Required:",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "1. Go to Apple Developer Portal",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "2. Select your App ID",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "3. Enable WeatherKit in Capabilities",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "4. Enable WeatherKit in App Services",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "5. Wait 30 min for propagation",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "6. Add entitlement to project",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Feels like %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Conditions",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hourly Forecast",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 266
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 286
+        }
+      },
+      {
+        "comment": "",
+        "key": "10-Day Forecast",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sunrise",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 331
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sunset",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 343
+        }
+      },
+      {
+        "comment": "",
+        "key": "Moon Phase",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 357
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sun & Moon",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "Speed",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 382
+        }
+      },
+      {
+        "comment": "",
+        "key": "Direction",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 392
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gusts",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "--",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 409
+        }
+      },
+      {
+        "comment": "",
+        "key": "Wind",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 416
+        }
+      },
+      {
+        "comment": "",
+        "key": "Weather data provided by Apple Weather",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 427
+        }
+      },
+      {
+        "comment": "",
+        "key": "WeatherKit provides comprehensive weather data including forecasts, historical data, and severe weather alerts. Requires App ID configuration.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 445
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Information",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 450
+        }
+      }
+    ]
+  },
+  "version": 1
+}

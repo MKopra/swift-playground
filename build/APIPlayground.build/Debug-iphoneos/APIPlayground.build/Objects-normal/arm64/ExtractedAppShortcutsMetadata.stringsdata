@@ -1,0 +1,105 @@
+{
+  "version" : 1,
+  "source" : "\/Users\/mattkopra\/prod_repos\/swift_playground\/APIPlayground\/AppIntents.swift",
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "key" : "System info with ${applicationName}",
+        "values" : [
+          "System info with ${applicationName}",
+          "CPU usage in ${applicationName}",
+          "RAM usage in ${applicationName}",
+          "Check system with ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "Get device status with ${applicationName}",
+        "values" : [
+          "Get device status with ${applicationName}",
+          "Check my device with ${applicationName}",
+          "Device info from ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "Play haptic with ${applicationName}",
+        "values" : [
+          "Play haptic with ${applicationName}",
+          "Vibrate with ${applicationName}",
+          "Haptic feedback from ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "Generate QR code with ${applicationName}",
+        "values" : [
+          "Generate QR code with ${applicationName}",
+          "Create QR code using ${applicationName}",
+          "Make QR code in ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "What's my altitude with ${applicationName}",
+        "values" : [
+          "What's my altitude with ${applicationName}",
+          "Check altitude using ${applicationName}",
+          "Get elevation from ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "Generate random color with ${applicationName}",
+        "values" : [
+          "Generate random color with ${applicationName}",
+          "Random color from ${applicationName}",
+          "Pick a color using ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "Toggle flashlight with ${applicationName}",
+        "values" : [
+          "Toggle flashlight with ${applicationName}",
+          "Turn on torch using ${applicationName}",
+          "Flashlight from ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      },
+      {
+        "key" : "3rd party status with ${applicationName}",
+        "values" : [
+          "3rd party status with ${applicationName}",
+          "Check services in ${applicationName}",
+          "Are my services up with ${applicationName}"
+        ],
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 110
+        }
+      }
+    ]
+  }
+}

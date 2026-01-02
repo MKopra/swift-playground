@@ -1,0 +1,42 @@
+apiVersion: ssu/v1
+nlu:
+  shortcuts:
+    bundleIdentifier: com.apiplayground.PlaygroundWidgets
+    intents:
+    - metadata:
+        name: ShowSystemStatsIntent_0
+        title: Show System Stats
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Show system stats in ${+applicationName}'
+          - '{${+prefix} }What''s my CPU usage in ${+applicationName}'
+          - '{${+prefix} }Check RAM usage in ${+applicationName}'
+          - '{${+prefix} }System info ${+applicationName}'
+    - metadata:
+        name: +negative
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+variables:
+- name: +applicationName
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+    - PlaygroundWidgets
+- name: +prefix
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/prefix/en.yaml
+- name: +standardAppShortcutNegatives
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/en.yaml

@@ -1,4 +1,5 @@
 import SwiftUI
+import ComposableArchitecture
 
 struct Feature: Identifiable, Hashable {
     let id = UUID()
@@ -8,6 +9,9 @@ struct Feature: Identifiable, Hashable {
 }
 
 struct ContentView: View {
+    @EnvironmentObject var navigationManager: NavigationManager
+    @State private var navigationPath = NavigationPath()
+
     private let features: [Feature] = [
         Feature(title: "Camera", icon: "camera.fill", color: .gray),
         Feature(title: "Location", icon: "location.fill", color: .blue),
@@ -38,11 +42,26 @@ struct ContentView: View {
         Feature(title: "Data Scanner", icon: "barcode.viewfinder", color: .teal),
         Feature(title: "Weather", icon: "cloud.sun.fill", color: .cyan),
         Feature(title: "Calendar", icon: "calendar", color: .red),
-        Feature(title: "Contacts", icon: "person.crop.circle", color: .blue)
+        Feature(title: "Contacts", icon: "person.crop.circle", color: .blue),
+        Feature(title: "Device Info", icon: "cpu", color: .gray),
+        Feature(title: "Telephony", icon: "phone.connection", color: .green),
+        Feature(title: "Accessibility", icon: "accessibility", color: .blue),
+        Feature(title: "Translation", icon: "character.bubble", color: .blue),
+        Feature(title: "Spotlight", icon: "magnifyingglass", color: .blue),
+        Feature(title: "Background Tasks", icon: "clock.arrow.circlepath", color: .orange),
+        Feature(title: "SharePlay", icon: "shareplay", color: .green),
+        Feature(title: "CallKit", icon: "phone.badge.waveform", color: .green),
+        Feature(title: "CloudKit", icon: "icloud.fill", color: .blue),
+        Feature(title: "Photo Map", icon: "map.fill", color: .green),
+        Feature(title: "Graphics", icon: "paintpalette.fill", color: .purple)
     ]
 
+    private var deviceInfoFeature: Feature {
+        features.first { $0.title == "Device Info" }!
+    }
+
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $navigationPath) {
             List {
                 Section {
                     ForEach(features) { feature in
@@ -89,8 +108,35 @@ struct ContentView: View {
                 case "Weather": WeatherKitView()
                 case "Calendar": EventKitView()
                 case "Contacts": ContactsView()
+                case "Device Info": DeviceInfoView()
+                case "Telephony": TelephonyView()
+                case "Accessibility": AccessibilityView()
+                case "Translation":
+                    if #available(iOS 17.4, *) {
+                        TranslationView()
+                    } else {
+                        TranslationViewFallback()
+                    }
+                case "Spotlight": SpotlightView()
+                case "Background Tasks": BackgroundTasksView()
+                case "SharePlay": SharePlayView()
+                case "CallKit": CallKitView()
+                case "CloudKit": CloudKitView()
+                case "Photo Map":
+                    PhotoMapView(
+                        store: Store(initialState: PhotoMapFeature.State()) {
+                            PhotoMapFeature()
+                        }
+                    )
+                case "Graphics": GraphicsView()
                 default: FeatureDetailView(feature: feature)
                 }
+            }
+        }
+        .onChange(of: navigationManager.navigateToDeviceInfo) { _, shouldNavigate in
+            if shouldNavigate {
+                navigationPath.append(deviceInfoFeature)
+                navigationManager.navigateToDeviceInfo = false
             }
         }
     }
@@ -98,4 +144,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
+        .environmentObject(NavigationManager.shared)
 }

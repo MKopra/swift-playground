@@ -1386,13 +1386,9 @@ class ComprehensiveHealthManager: ObservableObject {
             }
         }
 
-        // If we got no data, show demo
-        if stepCount == 0 && heartRate == 0 {
-            showDemoMode()
-        } else {
-            // Fill in demo data for other fields
-            fillDemoDataForMissingFields()
-        }
+        // Data fetched successfully - don't fall into demo mode just because values are 0
+        // User might legitimately have 0 steps or no recent heart rate
+        isDemoMode = false
     }
 
     private func fetchStatistic(healthStore: HKHealthStore, type: HKQuantityType, predicate: NSPredicate, unit: HKUnit) async throws -> Double {

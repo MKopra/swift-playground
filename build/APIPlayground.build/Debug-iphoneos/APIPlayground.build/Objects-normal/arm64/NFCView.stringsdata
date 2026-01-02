@@ -1,0 +1,96 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/NFCView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "NFC Reader",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "NFC is not available on this device",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "SCANNING...",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "READY",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning...",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan NFC Tag",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 121
+        }
+      },
+      {
+        "comment": "",
+        "key": "UID:",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 273
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanned NFC tags will appear here",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Scans",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 239
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 277
+        }
+      }
+    ]
+  },
+  "version": 1
+}

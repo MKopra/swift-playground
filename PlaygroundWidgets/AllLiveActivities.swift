@@ -12,48 +12,83 @@ struct LogWorkoutSetIntent: LiveActivityIntent {
     static var description = IntentDescription("Mark the current set as complete")
 
     func perform() async throws -> some IntentResult {
-        // Find the active workout activity and update it
         if #available(iOS 16.1, *) {
             for activity in Activity<WorkoutActivityAttributes>.activities {
                 let currentState = activity.content.state
                 let useRestTimer = activity.attributes.useRestTimer
 
-                // Calculate new state
-                let newSet = currentState.currentSet + (useRestTimer ? 0 : 1)
-                let isResting = useRestTimer
-
-                // Check if workout should end
-                if newSet > currentState.totalSets && !useRestTimer {
-                    // End the workout
-                    let finalState = WorkoutActivityAttributes.ContentState(
-                        secondsRemaining: 0,
-                        totalSeconds: currentState.totalSeconds,
-                        currentSet: currentState.totalSets,
-                        totalSets: currentState.totalSets,
-                        exerciseName: currentState.exerciseName,
-                        weight: currentState.weight,
-                        reps: currentState.reps,
-                        isResting: false,
-                        restEndTime: nil
-                    )
-                    await activity.end(
-                        ActivityContent(state: finalState, staleDate: nil),
-                        dismissalPolicy: .immediate
-                    )
+                if !useRestTimer {
+                    // No rest timer - just increment set
+                    let newSet = currentState.currentSet + 1
+                    if newSet > currentState.totalSets {
+                        let finalState = WorkoutActivityAttributes.ContentState(
+                            secondsRemaining: 0,
+                            totalSeconds: currentState.totalSeconds,
+                            currentSet: currentState.totalSets,
+                            totalSets: currentState.totalSets,
+                            exerciseName: currentState.exerciseName,
+                            weight: currentState.weight,
+                            reps: currentState.reps,
+                            isResting: false,
+                            restEndTime: nil
+                        )
+                        await activity.end(ActivityContent(state: finalState, staleDate: nil), dismissalPolicy: .immediate)
+                    } else {
+                        let updatedState = WorkoutActivityAttributes.ContentState(
+                            secondsRemaining: 0,
+                            totalSeconds: currentState.totalSeconds,
+                            currentSet: newSet,
+                            totalSets: currentState.totalSets,
+                            exerciseName: currentState.exerciseName,
+                            weight: currentState.weight,
+                            reps: currentState.reps,
+                            isResting: false,
+                            restEndTime: nil
+                        )
+                        await activity.update(ActivityContent(state: updatedState, staleDate: nil))
+                    }
+                } else if currentState.isResting {
+                    // Currently resting - end rest, move to next set
+                    let newSet = currentState.currentSet + 1
+                    if newSet > currentState.totalSets {
+                        let finalState = WorkoutActivityAttributes.ContentState(
+                            secondsRemaining: 0,
+                            totalSeconds: currentState.totalSeconds,
+                            currentSet: currentState.totalSets,
+                            totalSets: currentState.totalSets,
+                            exerciseName: currentState.exerciseName,
+                            weight: currentState.weight,
+                            reps: currentState.reps,
+                            isResting: false,
+                            restEndTime: nil
+                        )
+                        await activity.end(ActivityContent(state: finalState, staleDate: nil), dismissalPolicy: .immediate)
+                    } else {
+                        let updatedState = WorkoutActivityAttributes.ContentState(
+                            secondsRemaining: 0,
+                            totalSeconds: currentState.totalSeconds,
+                            currentSet: newSet,
+                            totalSets: currentState.totalSets,
+                            exerciseName: currentState.exerciseName,
+                            weight: currentState.weight,
+                            reps: currentState.reps,
+                            isResting: false,
+                            restEndTime: nil
+                        )
+                        await activity.update(ActivityContent(state: updatedState, staleDate: nil))
+                    }
                 } else {
-                    // Calculate rest end time for auto-updating timer
-                    let restEndTime: Date? = useRestTimer ? Date().addingTimeInterval(TimeInterval(currentState.totalSeconds)) : nil
-
-                    // Update to resting or next set
+                    // Not resting - start rest timer
+                    let restEndTime = Date().addingTimeInterval(TimeInterval(currentState.totalSeconds))
                     let updatedState = WorkoutActivityAttributes.ContentState(
-                        secondsRemaining: useRestTimer ? currentState.totalSeconds : 0,
+                        secondsRemaining: currentState.totalSeconds,
                         totalSeconds: currentState.totalSeconds,
-                        currentSet: useRestTimer ? currentState.currentSet : newSet,
+                        currentSet: currentState.currentSet,
                         totalSets: currentState.totalSets,
                         exerciseName: currentState.exerciseName,
                         weight: currentState.weight,
                         reps: currentState.reps,
-                        isResting: isResting,
+                        isResting: true,
                         restEndTime: restEndTime
                     )
                     await activity.update(ActivityContent(state: updatedState, staleDate: nil))
@@ -329,39 +364,55 @@ struct WorkoutLiveActivity: Widget {
                     Circle()
                         .stroke(lineWidth: 6)
                         .opacity(0.3)
-                    if context.state.isResting {
-                        Circle()
-                            .trim(from: 0, to: 1.0 - Double(context.state.secondsRemaining) / Double(max(context.state.totalSeconds, 1)))
-                            .stroke(style: StrokeStyle(lineWidth: 6, lineCap: .round))
-                            .rotationEffect(.degrees(-90))
-                    }
-                    Image(systemName: context.state.isResting ? "pause.fill" : "dumbbell.fill")
+                    Image(systemName: context.state.isResting ? "timer" : "dumbbell.fill")
                         .font(.title2)
                 }
                 .frame(width: 60, height: 60)
                 .foregroundStyle(context.state.isResting ? .orange : .purple)
 
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(context.state.isResting ? "REST" : "LIFT")
-                        .font(.caption)
-                        .fontWeight(.bold)
-                        .foregroundStyle(context.state.isResting ? .orange : .green)
                     Text(context.state.exerciseName)
                         .font(.headline)
                     Text("Set \(context.state.currentSet)/\(context.state.totalSets) • \(context.state.weight)lb × \(context.state.reps)")
-                        .font(.caption)
+                        .font(.subheadline)
                         .opacity(0.8)
                 }
 
                 Spacer()
 
                 if context.state.isResting, let endTime = context.state.restEndTime {
-                    Text(endTime, style: .timer)
-                        .font(.system(size: 48, weight: .bold, design: .rounded))
-                        .monospacedDigit()
-                        .multilineTextAlignment(.trailing)
-                        .frame(minWidth: 80)
-                } else if !context.state.isResting {
+                    // Show timer and LOG SET button together
+                    HStack(spacing: 12) {
+                        // Timer display - counts down then shows 0:00
+                        if endTime > Date() {
+                            Text(timerInterval: Date()...endTime, countsDown: true)
+                                .font(.system(size: 32, weight: .bold, design: .rounded))
+                                .monospacedDigit()
+                        } else {
+                            Text("0:00")
+                                .font(.system(size: 32, weight: .bold, design: .rounded))
+                                .monospacedDigit()
+                                .opacity(0.6)
+                        }
+
+                        // Always show LOG SET button - vibrant green
+                        Button(intent: LogWorkoutSetIntent()) {
+                            HStack(spacing: 4) {
+                                Image(systemName: "checkmark.circle.fill")
+                                    .font(.subheadline)
+                                Text("LOG SET")
+                                    .font(.caption)
+                                    .fontWeight(.bold)
+                            }
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 12)
+                            .padding(.vertical, 8)
+                            .background(.green, in: Capsule())
+                        }
+                        .buttonStyle(.plain)
+                    }
+                } else {
+                    // Not resting - show LOG SET button only
                     Button(intent: LogWorkoutSetIntent()) {
                         HStack(spacing: 8) {
                             Image(systemName: "checkmark.circle.fill")
@@ -384,7 +435,7 @@ struct WorkoutLiveActivity: Widget {
         } dynamicIsland: { context in
             DynamicIsland {
                 DynamicIslandExpandedRegion(.leading) {
-                    Image(systemName: context.state.isResting ? "pause.fill" : "dumbbell.fill")
+                    Image(systemName: context.state.isResting ? "timer" : "dumbbell.fill")
                         .foregroundStyle(context.state.isResting ? .orange : .purple)
                 }
                 DynamicIslandExpandedRegion(.trailing) {
@@ -402,12 +453,35 @@ struct WorkoutLiveActivity: Widget {
                         }
                         Spacer()
                         if context.state.isResting, let endTime = context.state.restEndTime {
-                            Text(endTime, style: .timer)
-                                .font(.title)
-                                .fontWeight(.bold)
-                                .monospacedDigit()
-                                .foregroundStyle(.orange)
-                        } else if !context.state.isResting {
+                            HStack(spacing: 8) {
+                                if endTime > Date() {
+                                    Text(timerInterval: Date()...endTime, countsDown: true)
+                                        .font(.title3)
+                                        .fontWeight(.bold)
+                                        .monospacedDigit()
+                                        .foregroundStyle(.orange)
+                                } else {
+                                    Text("0:00")
+                                        .font(.title3)
+                                        .fontWeight(.bold)
+                                        .monospacedDigit()
+                                        .opacity(0.6)
+                                }
+                                Button(intent: LogWorkoutSetIntent()) {
+                                    HStack(spacing: 4) {
+                                        Image(systemName: "checkmark.circle.fill")
+                                            .font(.caption2)
+                                        Text("LOG SET")
+                                            .font(.caption2)
+                                            .fontWeight(.bold)
+                                    }
+                                    .padding(.horizontal, 8)
+                                    .padding(.vertical, 4)
+                                    .background(.green, in: Capsule())
+                                }
+                                .buttonStyle(.plain)
+                            }
+                        } else {
                             Button(intent: LogWorkoutSetIntent()) {
                                 HStack(spacing: 6) {
                                     Image(systemName: "checkmark.circle.fill")
@@ -427,25 +501,42 @@ struct WorkoutLiveActivity: Widget {
                     .foregroundStyle(context.state.isResting ? .orange : .purple)
             } compactTrailing: {
                 if context.state.isResting, let endTime = context.state.restEndTime {
-                    Text(endTime, style: .timer)
-                        .font(.caption)
-                        .fontWeight(.bold)
-                        .monospacedDigit()
-                        .foregroundStyle(.orange)
+                    if endTime > Date() {
+                        Text(timerInterval: Date()...endTime, countsDown: true)
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .monospacedDigit()
+                            .foregroundStyle(.orange)
+                    } else {
+                        Text("0:00")
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .monospacedDigit()
+                            .opacity(0.6)
+                    }
                 } else {
-                    Text("Set \(context.state.currentSet)")
+                    Text("\(context.state.currentSet)/\(context.state.totalSets)")
                         .font(.caption)
                         .fontWeight(.bold)
                 }
             } minimal: {
                 if context.state.isResting, let endTime = context.state.restEndTime {
-                    Text(endTime, style: .timer)
-                        .font(.caption2)
-                        .fontWeight(.bold)
-                        .monospacedDigit()
+                    if endTime > Date() {
+                        Text(timerInterval: Date()...endTime, countsDown: true)
+                            .font(.caption2)
+                            .fontWeight(.bold)
+                            .monospacedDigit()
+                    } else {
+                        Text("0:00")
+                            .font(.caption2)
+                            .fontWeight(.bold)
+                            .monospacedDigit()
+                            .opacity(0.6)
+                    }
                 } else {
-                    Image(systemName: "dumbbell.fill")
-                        .foregroundStyle(.purple)
+                    Text("\(context.state.currentSet)")
+                        .font(.caption)
+                        .fontWeight(.bold)
                 }
             }
         }

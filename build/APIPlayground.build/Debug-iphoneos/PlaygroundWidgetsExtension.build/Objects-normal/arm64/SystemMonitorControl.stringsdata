@@ -1,0 +1,104 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/SystemMonitorControl.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "System Info",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shows CPU and RAM usage. Tap for details.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU %lld%%  RAM %lld%%",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show System Stats",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shows current CPU and RAM statistics",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU: %lld%% • RAM: %lld%%",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ / %@ GB used",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "RAM",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Info",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 138
+        }
+      }
+    ]
+  },
+  "version": 1
+}

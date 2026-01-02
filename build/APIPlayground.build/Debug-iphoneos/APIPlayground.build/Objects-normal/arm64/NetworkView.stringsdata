@@ -1,0 +1,192 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/NetworkView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Network",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connected",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Disconnected",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Speed",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Details",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 112
+        }
+      },
+      {
+        "comment": "",
+        "key": "Testing...",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 327
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Speed Test",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 327
+        }
+      },
+      {
+        "comment": "",
+        "key": "Test Results",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 342
+        }
+      },
+      {
+        "comment": "",
+        "key": "History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 386
+        }
+      },
+      {
+        "comment": "",
+        "key": "↓ %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 398
+        }
+      },
+      {
+        "comment": "",
+        "key": "↑ %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldms",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 406
+        }
+      },
+      {
+        "comment": "",
+        "key": "DNS Resolution",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 436
+        }
+      },
+      {
+        "comment": "",
+        "key": "Test host resolution",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 442
+        }
+      },
+      {
+        "comment": "",
+        "key": "Checks if DNS is working properly",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 444
+        }
+      },
+      {
+        "comment": "",
+        "key": "Test",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 462
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldms",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 482
+        }
+      },
+      {
+        "comment": "",
+        "key": "Network Interfaces",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 496
+        }
+      },
+      {
+        "comment": "",
+        "key": "No interfaces found",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 531
+        }
+      },
+      {
+        "comment": "",
+        "key": "Active",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 519
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connection Quality",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 543
+        }
+      }
+    ]
+  },
+  "version": 1
+}

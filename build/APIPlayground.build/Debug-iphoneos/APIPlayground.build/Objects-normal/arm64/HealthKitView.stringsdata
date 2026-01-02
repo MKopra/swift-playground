@@ -1,0 +1,272 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/HealthKitView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Health",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading Health Data...",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Demo Mode - HealthKit requires entitlements",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "HealthKit Not Available",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "This device does not support HealthKit. HealthKit is available on iPhone and Apple Watch.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Access Your Health Data",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 214
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grant access to view comprehensive health metrics including activity, heart rate, sleep, workouts, and more.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "Authorize Health Access",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity Rings",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 702
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@/%@",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 810
+        }
+      },
+      {
+        "comment": "",
+        "key": "Heart Rate",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 895
+        }
+      },
+      {
+        "comment": "",
+        "key": "Latest reading",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 899
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 908
+        }
+      },
+      {
+        "comment": "",
+        "key": "BPM",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 912
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resting",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 924
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 928
+        }
+      },
+      {
+        "comment": "",
+        "key": "BPM",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 932
+        }
+      },
+      {
+        "comment": "",
+        "key": "Walking Avg",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 941
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 945
+        }
+      },
+      {
+        "comment": "",
+        "key": "BPM",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 949
+        }
+      },
+      {
+        "comment": "",
+        "key": "Steps This Week",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 966
+        }
+      },
+      {
+        "comment": "",
+        "key": "10k+",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 973
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldk",
+        "location": {
+          "startingColumn": 60,
+          "startingLine": 973
+        }
+      },
+      {
+        "comment": "",
+        "key": "Heart Rate Today",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1004
+        }
+      },
+      {
+        "comment": "",
+        "key": "No data available",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1009
+        }
+      },
+      {
+        "comment": "",
+        "key": "Range",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1015
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld - %lld BPM",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1021
+        }
+      },
+      {
+        "comment": "",
+        "key": "Average",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1030
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld BPM",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1035
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sleep Analysis",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1062
+        }
+      },
+      {
+        "comment": "",
+        "key": "hours",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 1072
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Workouts",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 1144
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld cal",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1175
+        }
+      }
+    ]
+  },
+  "version": 1
+}

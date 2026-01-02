@@ -1,0 +1,192 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/BreathingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Breath Pacer",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cycle %lld/%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "Session Active",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready to Begin",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Breathing Guide",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Breathing Pattern",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Session Duration",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 213
+        }
+      },
+      {
+        "comment": "",
+        "key": "Minutes",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Target Cycles",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configuration",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Breathing Session",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 263
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resume",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "End",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 295
+        }
+      },
+      {
+        "comment": "",
+        "key": "Why Breathing + Live Activity?",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 310
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Activities update every 5-15 seconds remotely, but locally can update faster. This constraint is actually perfect for breathing exercises where cycles are 4-8 seconds. The Dynamic Island's organic, 'living' design philosophy matches breathing visualization beautifully.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 314
+        }
+      },
+      {
+        "comment": "",
+        "key": "About This Demo",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 322
+        }
+      },
+      {
+        "comment": "",
+        "key": "%llds",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 345
+        }
+      }
+    ]
+  },
+  "version": 1
+}

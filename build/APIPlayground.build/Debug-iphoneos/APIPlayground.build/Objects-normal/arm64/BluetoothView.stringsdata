@@ -1,0 +1,152 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/BluetoothView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Bluetooth",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 157
+        }
+      },
+      {
+        "comment": "",
+        "key": "Filter devices...",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Scan",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Scan",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld devices",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connected",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning...",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connectable",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 311
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld dB",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 322
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device Information",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 394
+        }
+      },
+      {
+        "comment": "",
+        "key": "Advertising Data",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "Discovered Services",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 418
+        }
+      },
+      {
+        "comment": "",
+        "key": "Discovering services...",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 422
+        }
+      },
+      {
+        "comment": "",
+        "key": "Disconnect",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 437
+        }
+      },
+      {
+        "comment": "",
+        "key": "Connect",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 441
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 450
+        }
+      },
+      {
+        "comment": "",
+        "key": "Value: %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 555
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 563
+        }
+      }
+    ]
+  },
+  "version": 1
+}

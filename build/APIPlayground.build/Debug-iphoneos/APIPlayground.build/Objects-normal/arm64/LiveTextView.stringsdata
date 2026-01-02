@@ -1,0 +1,104 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/LiveTextView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Live Text",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 159
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan Mode",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap Start to begin scanning",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Text not supported on this device",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 73
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Scans",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 291
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanned items will appear here",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 240
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Scans",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 238
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 295
+        }
+      }
+    ]
+  },
+  "version": 1
+}

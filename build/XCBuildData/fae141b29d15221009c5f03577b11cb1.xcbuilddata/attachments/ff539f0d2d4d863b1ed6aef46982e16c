@@ -1,0 +1,99 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatch-primary.dia",
+    "emit-module-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatch-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatch-primary-emit-module.dia",
+    "pch" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatch-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatch-primary.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/APIPlaygroundWatchApp.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/APIPlaygroundWatchApp~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/ContentView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchCloudKitView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchCloudKitView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchConnectivityView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchConnectivityView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchHapticsView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHapticsView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchHealthView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchHealthView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchInfoView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchInfoView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchMotionView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/WatchMotionView~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-watchos/APIPlaygroundWatch.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

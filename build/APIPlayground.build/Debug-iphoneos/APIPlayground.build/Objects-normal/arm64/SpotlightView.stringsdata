@@ -1,0 +1,232 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/SpotlightView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Core Spotlight",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quick Actions",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Samples",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Indexing...",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Index All",
+        "location": {
+          "startingColumn": 59,
+          "startingLine": 203
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear Index",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 221
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Spotlight",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "In-App Search (via Spotlight Index)",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 256
+        }
+      },
+      {
+        "comment": "",
+        "key": "No results found",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 290
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search indexed items...",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 262
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add items to index them in Spotlight search",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 352
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Items Yet",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Items",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 334
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear All",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 338
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%lld)",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "How Spotlight Indexing Works",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Index is private to your app\n• Max ~thousands of items recommended\n• Content must be refreshed periodically\n• Semantic search requires iOS 18+",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 466
+        }
+      },
+      {
+        "comment": "",
+        "key": "Limitations",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 462
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 478
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Item",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 531
+        }
+      },
+      {
+        "comment": "",
+        "key": "Item Details",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 500
+        }
+      },
+      {
+        "comment": "",
+        "key": "Category",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 505
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 501
+        }
+      },
+      {
+        "comment": "",
+        "key": "Description",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 502
+        }
+      },
+      {
+        "comment": "",
+        "key": "Category",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 506
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add & Index",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 516
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Only (Don't Index)",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 523
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 535
+        }
+      }
+    ]
+  },
+  "version": 1
+}

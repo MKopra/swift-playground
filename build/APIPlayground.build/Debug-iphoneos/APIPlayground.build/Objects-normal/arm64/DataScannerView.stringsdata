@@ -1,0 +1,224 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/DataScannerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Data Scanner",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "DataScanner requires iOS 16+ and a device with Neural Engine (A12 Bionic or later).",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "DataScanner Available",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "DataScanner Not Available",
+        "location": {
+          "startingColumn": 81,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Scans",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "Text Items",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Barcodes",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanner Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select what to scan:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan Configuration",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Scanning",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 170
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scan History",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Results",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Supported barcode symbologies:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "Barcode Types",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "DataScannerViewController uses the device camera with on-device ML to recognize text and barcodes in real-time.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Information",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "(%@)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 337
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanning...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 423
+        }
+      },
+      {
+        "comment": "",
+        "key": "This device does not support DataScanner",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 419
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scanner Not Available",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 417
+        }
+      },
+      {
+        "comment": "",
+        "key": "Point camera at text or barcodes",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 407
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 427
+        }
+      }
+    ]
+  },
+  "version": 1
+}

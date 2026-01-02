@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F105830D7B2ED10270B341 /* SharePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72DA4353057D43C65D63B4 /* SharePlayView.swift */; };
+		16FBFB0078C65B9A5D3454C2 /* WatchMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2921641AC5FC5DBB52F5EB /* WatchMotionView.swift */; };
+		2D652F2532C7C36C7CB2D071 /* PhotoMapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BDA237E94454586F7A78CB /* PhotoMapModels.swift */; };
+		43728489D801194677209CEF /* PhotoMapFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4734AE1941EA80E8F3C91 /* PhotoMapFeature.swift */; };
+		4532CBAA83F5749D26AC0A0C /* ARKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344437EEC108B359522E14D3 /* ARKitView.swift */; };
+		4CF6E2F5B6010BA503EFF21A /* LiveTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9E2ADB40BF394AF24BEB /* LiveTextView.swift */; };
+		4FC102AE9B73E66D8FCED6C0 /* WatchInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8960B69FF801F87C1DBC9 /* WatchInfoView.swift */; };
+		52A04ACCB46578E97BC03169 /* GraphicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C47E7CC86FE5E363EC67D72 /* GraphicsView.swift */; };
+		52CBF3C8E2DFC48AA6CC0451 /* MusicKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F277171E92063AE1AD953 /* MusicKitView.swift */; };
+		53D899615DD17F6E628D3EDC /* CloudKitPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6A6B38B973D1EE0ECE97A /* CloudKitPhotoService.swift */; };
+		64EE955D0812365B8E2B4E64 /* BackgroundTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B20F8A7BE728A6044464B /* BackgroundTasksView.swift */; };
+		65AE75CBCBCE4525ABCA98D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D46E851D88195B4B960844 /* Assets.xcassets */; };
+		6CD1C2EC06E83AD1A9B01C2A /* WatchConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B685FB7CFD6F79B1DA3FB769 /* WatchConnectivityView.swift */; };
+		7558679FDAC48A22D92FFE2A /* SpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E517409730CACCA5597E9 /* SpotlightView.swift */; };
+		783C4445C235AEA92614AA0C /* WatchHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D3AEE70EF25047FB0E6F /* WatchHapticsView.swift */; };
+		7C5AD20C52B91E5FD1E9D2C7 /* NFCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C5104646F74D9D8CA2FDA5 /* NFCView.swift */; };
+		7DC80BC99A8474EDFA14373A /* ShazamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26616FC2F1F0158AA2B7A44D /* ShazamView.swift */; };
+		8760CC2783395B4302084C7E /* CloudKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E37DE717D1683CD5207504 /* CloudKitView.swift */; };
+		89DF4A85BF084A8464A469ED /* APIPlaygroundWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F377B37A190861584169E0 /* APIPlaygroundWatchApp.swift */; };
+		8EC36BBCF7BD94D9D25D4182 /* WatchCloudKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFF1C5FB1CCBCE4F02DA237 /* WatchCloudKitView.swift */; };
 		A1000001233D8F0000000001 /* APIPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000002233D8F0000000001 /* APIPlaygroundApp.swift */; };
 		A1000003233D8F0000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000004233D8F0000000001 /* ContentView.swift */; };
 		A1000005233D8F0000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000006233D8F0000000001 /* Assets.xcassets */; };
@@ -29,16 +49,6 @@
 		A1000114233D8F0000000001 /* ProximityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000115233D8F0000000001 /* ProximityView.swift */; };
 		A1000116233D8F0000000001 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000117233D8F0000000001 /* NetworkView.swift */; };
 		A1000118233D8F0000000001 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000119233D8F0000000001 /* BatteryView.swift */; };
-		7C5AD20C52B91E5FD1E9D2C7 /* NFCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C5104646F74D9D8CA2FDA5 /* NFCView.swift */; };
-		4CF6E2F5B6010BA503EFF21A /* LiveTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9E2ADB40BF394AF24BEB /* LiveTextView.swift */; };
-		7DC80BC99A8474EDFA14373A /* ShazamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26616FC2F1F0158AA2B7A44D /* ShazamView.swift */; };
-		F9EF26DFCFA4CD8E80530AE1 /* ScreenRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5C3CDD353889AEB661A866 /* ScreenRecordView.swift */; };
-		E3754EFCCFAB111ACDA2889B /* MLVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9112E27C6EAB57B35CAE35 /* MLVisionView.swift */; };
-		4532CBAA83F5749D26AC0A0C /* ARKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344437EEC108B359522E14D3 /* ARKitView.swift */; };
-		FA425F185F094FFDB53F638F /* HealthKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3227EBA3D866D2406926213 /* HealthKitView.swift */; };
-		CA1FE43193A768E69AAA5731 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2900AEA1908B5D8798AB70C /* PencilKitView.swift */; };
-		52CBF3C8E2DFC48AA6CC0451 /* MusicKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21F277171E92063AE1AD953 /* MusicKitView.swift */; };
-		BC687344E995D15B73F5A59D /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E76356585683FC2C7AB60 /* WalletView.swift */; };
 		AA111111111111111111111A /* LiveActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA111111111111111111111B /* LiveActivityView.swift */; };
 		AA222222222222222222222A /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA222222222222222222222B /* DataScannerView.swift */; };
 		AA333333333333333333333A /* WeatherKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA333333333333333333333B /* WeatherKitView.swift */; };
@@ -48,6 +58,28 @@
 		BB222222222222222222222A /* AppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB222222222222222222222B /* AppIntents.swift */; };
 		BB333333333333333333333A /* BreathingActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB333333333333333333333B /* BreathingActivityAttributes.swift */; };
 		BB444444444444444444444A /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB444444444444444444444B /* BreathingView.swift */; };
+		BC687344E995D15B73F5A59D /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0E76356585683FC2C7AB60 /* WalletView.swift */; };
+		C30C231C56BE123ECCDDF705 /* PhotoMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50B60145308713329B1126 /* PhotoMapView.swift */; };
+		C5CCE1458517984CE0EF4FB2 /* PhotoStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7568109F0F355CE906EDD /* PhotoStorageService.swift */; };
+		CA1FE43193A768E69AAA5731 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2900AEA1908B5D8798AB70C /* PencilKitView.swift */; };
+		CC111111111111111111111A /* PlaygroundWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */; };
+		CC222222222222222222222A /* DeliveryLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC222222222222222222222B /* DeliveryLiveActivity.swift */; };
+		CC333333333333333333333A /* DeliveryActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB111111111111111111111B /* DeliveryActivityAttributes.swift */; };
+		CC43A428A7FCFDEB6E0DDC23 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA24FA6C8CC10FB2D21A060 /* LocationManager.swift */; };
+		CC444444444444444444444A /* PlaygroundWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC555555555555555555555A /* BreathingActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB333333333333333333333B /* BreathingActivityAttributes.swift */; };
+		CC666666666666666666666A /* BreathingLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC666666666666666666666B /* BreathingLiveActivity.swift */; };
+		CCAAAAAAAAAAAAAAAAAAAAA /* DeviceStatsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAAAAAAAAAAAAAAAAAAAAAB /* DeviceStatsWidget.swift */; };
+		CCBBBBBBBBBBBBBBBBBBBBA /* LockScreenWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBBBBBBBBBBBBBBBBBBBBBB /* LockScreenWidgets.swift */; };
+		CCCCCCCCCCCCCCCCCCCCCCA /* SystemMonitorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCCCCCCCCCCCCCCCCCCCC /* SystemMonitorControl.swift */; };
+		CCF54E65EAF1BE1BBC9B703A /* CallKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753AF2AA7EFB02CECCD97B2 /* CallKitView.swift */; };
+		CEE38FD5FECB74750926C654 /* WatchHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756BA826DD03F390A7E7697 /* WatchHealthView.swift */; };
+		D811BCE3926ECA3F6DE782EF /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462852281FF1422B4C84C69 /* PhotoCaptureView.swift */; };
+		DD111111111111111111111A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111111111111111111111B /* ShareViewController.swift */; };
+		DD222222222222222222222A /* APIInspector.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000A /* APIInspector.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3754EFCCFAB111ACDA2889B /* MLVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9112E27C6EAB57B35CAE35 /* MLVisionView.swift */; };
+		E820682A206D0F1E13CCCCEF /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF47DC460289BF94F49763 /* TranslationView.swift */; };
+		E9EF73DFE33A12A947FD2AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9E036708EAD2EE8C57F48 /* ContentView.swift */; };
 		EE111111111111111111111A /* LiveActivityListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE111111111111111111111B /* LiveActivityListView.swift */; };
 		EE222222222222222222222A /* LiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE222222222222222222222B /* LiveActivityAttributes.swift */; };
 		EE333333333333333333333A /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE333333333333333333333B /* PomodoroView.swift */; };
@@ -58,16 +90,15 @@
 		EE888888888888888888888A /* RocketLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE888888888888888888888B /* RocketLaunchView.swift */; };
 		EE999999999999999999999A /* SportsScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE999999999999999999999B /* SportsScoreView.swift */; };
 		EEAAAAAAAAAAAAAAAAAAAAA /* EggTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */; };
+		EFC7EE97C60F109D1CCA4A22 /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282104F8BDF80288123F8C2C /* PhotoDetailView.swift */; };
+		F43918186C8CF1C945EE9A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB67E791F2EFF5C24A9C2DD9 /* Foundation.framework */; };
+		F9EF26DFCFA4CD8E80530AE1 /* ScreenRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5C3CDD353889AEB661A866 /* ScreenRecordView.swift */; };
+		FA425F185F094FFDB53F638F /* HealthKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3227EBA3D866D2406926213 /* HealthKitView.swift */; };
 		FF111111111111111111111A /* AllLiveActivities.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF111111111111111111111B /* AllLiveActivities.swift */; };
 		FF222222222222222222222A /* LiveActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE222222222222222222222B /* LiveActivityAttributes.swift */; };
-		CC111111111111111111111A /* PlaygroundWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */; };
-		CC222222222222222222222A /* DeliveryLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC222222222222222222222B /* DeliveryLiveActivity.swift */; };
-		CC333333333333333333333A /* DeliveryActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB111111111111111111111B /* DeliveryActivityAttributes.swift */; };
-		CC555555555555555555555A /* BreathingActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB333333333333333333333B /* BreathingActivityAttributes.swift */; };
-		CC666666666666666666666A /* BreathingLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC666666666666666666666B /* BreathingLiveActivity.swift */; };
-		CC444444444444444444444A /* PlaygroundWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		DD111111111111111111111A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111111111111111111111B /* ShareViewController.swift */; };
-		DD222222222222222222222A /* APIInspector.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000A /* APIInspector.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		GG111111111111111111111A /* DeviceInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = GG111111111111111111111B /* DeviceInfoView.swift */; };
+		GG222222222222222222222A /* TelephonyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = GG222222222222222222222B /* TelephonyView.swift */; };
+		GG333333333333333333333A /* AccessibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = GG333333333333333333333B /* AccessibilityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,13 +134,36 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A1000010233D8F0000000001 /* APIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03C1D3AEE70EF25047FB0E6F /* WatchHapticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchHapticsView.swift; sourceTree = "<group>"; };
+		0C2921641AC5FC5DBB52F5EB /* WatchMotionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchMotionView.swift; sourceTree = "<group>"; };
+		1462852281FF1422B4C84C69 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoCaptureView.swift; path = ../../PhotoMap/PhotoCaptureView.swift; sourceTree = "<group>"; };
+		1A50B60145308713329B1126 /* PhotoMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoMapView.swift; path = ../../PhotoMap/PhotoMapView.swift; sourceTree = "<group>"; };
+		1B0E76356585683FC2C7AB60 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		26616FC2F1F0158AA2B7A44D /* ShazamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamView.swift; sourceTree = "<group>"; };
+		282104F8BDF80288123F8C2C /* PhotoDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoDetailView.swift; path = ../../PhotoMap/PhotoDetailView.swift; sourceTree = "<group>"; };
+		344437EEC108B359522E14D3 /* ARKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitView.swift; sourceTree = "<group>"; };
+		34F377B37A190861584169E0 /* APIPlaygroundWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIPlaygroundWatchApp.swift; sourceTree = "<group>"; };
+		35C4734AE1941EA80E8F3C91 /* PhotoMapFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoMapFeature.swift; path = ../../PhotoMap/PhotoMapFeature.swift; sourceTree = "<group>"; };
+		3C9112E27C6EAB57B35CAE35 /* MLVisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLVisionView.swift; sourceTree = "<group>"; };
+		461B20F8A7BE728A6044464B /* BackgroundTasksView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BackgroundTasksView.swift; sourceTree = "<group>"; };
+		4D3467ED17B9FD47E101B1C3 /* APIPlaygroundWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIPlaygroundWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65BDA237E94454586F7A78CB /* PhotoMapModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoMapModels.swift; path = ../../PhotoMap/PhotoMapModels.swift; sourceTree = "<group>"; };
+		6C47E7CC86FE5E363EC67D72 /* GraphicsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GraphicsView.swift; sourceTree = "<group>"; };
+		6C5C3CDD353889AEB661A866 /* ScreenRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordView.swift; sourceTree = "<group>"; };
+		6F72DA4353057D43C65D63B4 /* SharePlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharePlayView.swift; sourceTree = "<group>"; };
+		77D46E851D88195B4B960844 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D7A9E2ADB40BF394AF24BEB /* LiveTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextView.swift; sourceTree = "<group>"; };
+		93D9E036708EAD2EE8C57F48 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9608B91C98C481EE1104BA01 /* APIPlaygroundWatch.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = APIPlaygroundWatch.entitlements; sourceTree = "<group>"; };
+		9753AF2AA7EFB02CECCD97B2 /* CallKitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CallKitView.swift; sourceTree = "<group>"; };
+		A0B7568109F0F355CE906EDD /* PhotoStorageService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoStorageService.swift; path = ../../PhotoMap/PhotoStorageService.swift; sourceTree = "<group>"; };
 		A1000002233D8F0000000001 /* APIPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPlaygroundApp.swift; sourceTree = "<group>"; };
 		A1000004233D8F0000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1000006233D8F0000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1000008233D8F0000000001 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A100000A233D8F0000000001 /* FeatureDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureDetailView.swift; sourceTree = "<group>"; };
 		A100000C233D8F0000000001 /* SettingsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRow.swift; sourceTree = "<group>"; };
+		A1000010233D8F0000000001 /* APIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1000081233D8F0000000001 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 		A1000083233D8F0000000001 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		A1000085233D8F0000000001 /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
@@ -127,27 +181,39 @@
 		A1000115233D8F0000000001 /* ProximityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProximityView.swift; sourceTree = "<group>"; };
 		A1000117233D8F0000000001 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
 		A1000119233D8F0000000001 /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
-		F8C5104646F74D9D8CA2FDA5 /* NFCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCView.swift; sourceTree = "<group>"; };
-		8D7A9E2ADB40BF394AF24BEB /* LiveTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextView.swift; sourceTree = "<group>"; };
-		26616FC2F1F0158AA2B7A44D /* ShazamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamView.swift; sourceTree = "<group>"; };
-		6C5C3CDD353889AEB661A866 /* ScreenRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordView.swift; sourceTree = "<group>"; };
-		3C9112E27C6EAB57B35CAE35 /* MLVisionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLVisionView.swift; sourceTree = "<group>"; };
-		344437EEC108B359522E14D3 /* ARKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitView.swift; sourceTree = "<group>"; };
-		F3227EBA3D866D2406926213 /* HealthKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitView.swift; sourceTree = "<group>"; };
-		E2900AEA1908B5D8798AB70C /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
-		E21F277171E92063AE1AD953 /* MusicKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicKitView.swift; sourceTree = "<group>"; };
-		1B0E76356585683FC2C7AB60 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		A30E517409730CACCA5597E9 /* SpotlightView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpotlightView.swift; sourceTree = "<group>"; };
+		A9EF47DC460289BF94F49763 /* TranslationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TranslationView.swift; sourceTree = "<group>"; };
 		AA111111111111111111111B /* LiveActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityView.swift; sourceTree = "<group>"; };
 		AA222222222222222222222B /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 		AA333333333333333333333B /* WeatherKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherKitView.swift; sourceTree = "<group>"; };
 		AA444444444444444444444B /* EventKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventKitView.swift; sourceTree = "<group>"; };
 		AA555555555555555555555B /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		AA666666666666666666666B /* APIPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APIPlayground.entitlements; sourceTree = "<group>"; };
+		B3E6A6B38B973D1EE0ECE97A /* CloudKitPhotoService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CloudKitPhotoService.swift; path = ../../PhotoMap/CloudKitPhotoService.swift; sourceTree = "<group>"; };
+		B685FB7CFD6F79B1DA3FB769 /* WatchConnectivityView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchConnectivityView.swift; sourceTree = "<group>"; };
 		BB111111111111111111111B /* DeliveryActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryActivityAttributes.swift; sourceTree = "<group>"; };
 		BB222222222222222222222B /* AppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntents.swift; sourceTree = "<group>"; };
 		BB333333333333333333333B /* BreathingActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingActivityAttributes.swift; sourceTree = "<group>"; };
 		BB444444444444444444444B /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		BB67E791F2EFF5C24A9C2DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C6D8960B69FF801F87C1DBC9 /* WatchInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchInfoView.swift; sourceTree = "<group>"; };
+		CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlaygroundWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundWidgetsBundle.swift; sourceTree = "<group>"; };
+		CC222222222222222222222B /* DeliveryLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLiveActivity.swift; sourceTree = "<group>"; };
+		CC333333333333333333333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC666666666666666666666B /* BreathingLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingLiveActivity.swift; sourceTree = "<group>"; };
+		CC777777777777777777777B /* PlaygroundWidgets.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlaygroundWidgets.entitlements; sourceTree = "<group>"; };
+		CCAAAAAAAAAAAAAAAAAAAAAB /* DeviceStatsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceStatsWidget.swift; sourceTree = "<group>"; };
+		CCBBBBBBBBBBBBBBBBBBBBBB /* LockScreenWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenWidgets.swift; sourceTree = "<group>"; };
+		CCCCCCCCCCCCCCCCCCCCCCCC /* SystemMonitorControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemMonitorControl.swift; sourceTree = "<group>"; };
+		DBA24FA6C8CC10FB2D21A060 /* LocationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = ../../PhotoMap/LocationManager.swift; sourceTree = "<group>"; };
+		DD000000000000000000000A /* APIInspector.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = APIInspector.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD111111111111111111111B /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		DD333333333333333333333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E21F277171E92063AE1AD953 /* MusicKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicKitView.swift; sourceTree = "<group>"; };
+		E2900AEA1908B5D8798AB70C /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
+		E6E37DE717D1683CD5207504 /* CloudKitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CloudKitView.swift; sourceTree = "<group>"; };
+		E756BA826DD03F390A7E7697 /* WatchHealthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchHealthView.swift; sourceTree = "<group>"; };
 		EE111111111111111111111B /* LiveActivityListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityListView.swift; sourceTree = "<group>"; };
 		EE222222222222222222222B /* LiveActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityAttributes.swift; sourceTree = "<group>"; };
 		EE333333333333333333333B /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
@@ -158,17 +224,24 @@
 		EE888888888888888888888B /* RocketLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketLaunchView.swift; sourceTree = "<group>"; };
 		EE999999999999999999999B /* SportsScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsScoreView.swift; sourceTree = "<group>"; };
 		EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerView.swift; sourceTree = "<group>"; };
+		F3227EBA3D866D2406926213 /* HealthKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitView.swift; sourceTree = "<group>"; };
+		F8C5104646F74D9D8CA2FDA5 /* NFCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCView.swift; sourceTree = "<group>"; };
+		FCFF1C5FB1CCBCE4F02DA237 /* WatchCloudKitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchCloudKitView.swift; sourceTree = "<group>"; };
 		FF111111111111111111111B /* AllLiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLiveActivities.swift; sourceTree = "<group>"; };
-		CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlaygroundWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundWidgetsBundle.swift; sourceTree = "<group>"; };
-		CC222222222222222222222B /* DeliveryLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryLiveActivity.swift; sourceTree = "<group>"; };
-		CC333333333333333333333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DD000000000000000000000A /* APIInspector.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = APIInspector.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD111111111111111111111B /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
-		DD333333333333333333333B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		GG111111111111111111111B /* DeviceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
+		GG222222222222222222222B /* TelephonyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelephonyView.swift; sourceTree = "<group>"; };
+		GG333333333333333333333B /* AccessibilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		66EB58E8F07D0DD17040518E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F43918186C8CF1C945EE9A84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1000020233D8F0000000001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,6 +266,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2302748DDFE15E9E639D0889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41A0AAB4E54421B5B9F3B10D /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41A0AAB4E54421B5B9F3B10D /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB67E791F2EFF5C24A9C2DD9 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		62DE476125D1E25F47CDA192 /* PhotoMap */ = {
+			isa = PBXGroup;
+			children = (
+				65BDA237E94454586F7A78CB /* PhotoMapModels.swift */,
+				DBA24FA6C8CC10FB2D21A060 /* LocationManager.swift */,
+				B3E6A6B38B973D1EE0ECE97A /* CloudKitPhotoService.swift */,
+				35C4734AE1941EA80E8F3C91 /* PhotoMapFeature.swift */,
+				1A50B60145308713329B1126 /* PhotoMapView.swift */,
+				1462852281FF1422B4C84C69 /* PhotoCaptureView.swift */,
+				282104F8BDF80288123F8C2C /* PhotoDetailView.swift */,
+				A0B7568109F0F355CE906EDD /* PhotoStorageService.swift */,
+			);
+			name = PhotoMap;
+			path = APIPlayground/PhotoMap;
+			sourceTree = "<group>";
+		};
 		A1000030233D8F0000000001 = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +305,8 @@
 				CC900000000000000000000A /* PlaygroundWidgets */,
 				DD900000000000000000000A /* APIInspector */,
 				A1000032233D8F0000000001 /* Products */,
+				2302748DDFE15E9E639D0889 /* Frameworks */,
+				C240E082D5252F9697285558 /* APIPlaygroundWatch */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,10 +362,21 @@
 				EE888888888888888888888B /* RocketLaunchView.swift */,
 				EE999999999999999999999B /* SportsScoreView.swift */,
 				EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */,
+				GG111111111111111111111B /* DeviceInfoView.swift */,
+				GG222222222222222222222B /* TelephonyView.swift */,
+				GG333333333333333333333B /* AccessibilityView.swift */,
 				A100010B233D8F0000000001 /* Info.plist */,
 				AA666666666666666666666B /* APIPlayground.entitlements */,
 				A1000006233D8F0000000001 /* Assets.xcassets */,
 				A1000033233D8F0000000001 /* Preview Content */,
+				A9EF47DC460289BF94F49763 /* TranslationView.swift */,
+				A30E517409730CACCA5597E9 /* SpotlightView.swift */,
+				461B20F8A7BE728A6044464B /* BackgroundTasksView.swift */,
+				6F72DA4353057D43C65D63B4 /* SharePlayView.swift */,
+				9753AF2AA7EFB02CECCD97B2 /* CallKitView.swift */,
+				E6E37DE717D1683CD5207504 /* CloudKitView.swift */,
+				62DE476125D1E25F47CDA192 /* PhotoMap */,
+				6C47E7CC86FE5E363EC67D72 /* GraphicsView.swift */,
 			);
 			path = APIPlayground;
 			sourceTree = "<group>";
@@ -269,6 +387,7 @@
 				A1000010233D8F0000000001 /* APIPlayground.app */,
 				CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */,
 				DD000000000000000000000A /* APIInspector.appex */,
+				4D3467ED17B9FD47E101B1C3 /* APIPlaygroundWatch.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -281,14 +400,36 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		C240E082D5252F9697285558 /* APIPlaygroundWatch */ = {
+			isa = PBXGroup;
+			children = (
+				34F377B37A190861584169E0 /* APIPlaygroundWatchApp.swift */,
+				93D9E036708EAD2EE8C57F48 /* ContentView.swift */,
+				E756BA826DD03F390A7E7697 /* WatchHealthView.swift */,
+				03C1D3AEE70EF25047FB0E6F /* WatchHapticsView.swift */,
+				FCFF1C5FB1CCBCE4F02DA237 /* WatchCloudKitView.swift */,
+				B685FB7CFD6F79B1DA3FB769 /* WatchConnectivityView.swift */,
+				0C2921641AC5FC5DBB52F5EB /* WatchMotionView.swift */,
+				C6D8960B69FF801F87C1DBC9 /* WatchInfoView.swift */,
+				77D46E851D88195B4B960844 /* Assets.xcassets */,
+				9608B91C98C481EE1104BA01 /* APIPlaygroundWatch.entitlements */,
+			);
+			name = APIPlaygroundWatch;
+			path = APIPlaygroundWatch;
+			sourceTree = "<group>";
+		};
 		CC900000000000000000000A /* PlaygroundWidgets */ = {
 			isa = PBXGroup;
 			children = (
 				CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */,
+				CCAAAAAAAAAAAAAAAAAAAAAB /* DeviceStatsWidget.swift */,
+				CCBBBBBBBBBBBBBBBBBBBBBB /* LockScreenWidgets.swift */,
+				CCCCCCCCCCCCCCCCCCCCCCCC /* SystemMonitorControl.swift */,
 				CC222222222222222222222B /* DeliveryLiveActivity.swift */,
 				CC666666666666666666666B /* BreathingLiveActivity.swift */,
 				FF111111111111111111111B /* AllLiveActivities.swift */,
 				CC333333333333333333333B /* Info.plist */,
+				CC777777777777777777777B /* PlaygroundWidgets.entitlements */,
 			);
 			path = PlaygroundWidgets;
 			sourceTree = "<group>";
@@ -305,6 +446,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		104A3C8F19E7840F1DCE6FA5 /* APIPlaygroundWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4A7C0057EA84CA3BE6063A3 /* Build configuration list for PBXNativeTarget "APIPlaygroundWatch" */;
+			buildPhases = (
+				1F6EC433FE5B6E15278E7FBE /* Sources */,
+				66EB58E8F07D0DD17040518E /* Frameworks */,
+				2D38984377CD0E41DF5D47DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIPlaygroundWatch;
+			productName = APIPlaygroundWatch;
+			productReference = 4D3467ED17B9FD47E101B1C3 /* APIPlaygroundWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
 		A1000040233D8F0000000001 /* APIPlayground */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1000050233D8F0000000001 /* Build configuration list for PBXNativeTarget "APIPlayground" */;
@@ -321,6 +479,9 @@
 				DD400000000000000000000A /* PBXTargetDependency */,
 			);
 			name = APIPlayground;
+			packageProductDependencies = (
+				8CC9D88E463B0E9B02079EB7 /* ComposableArchitecture */,
+			);
 			productName = APIPlayground;
 			productReference = A1000010233D8F0000000001 /* APIPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -369,6 +530,9 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
+					104A3C8F19E7840F1DCE6FA5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
 					A1000040233D8F0000000001 = {
 						CreatedOnToolsVersion = 15.0;
 					};
@@ -389,6 +553,9 @@
 				Base,
 			);
 			mainGroup = A1000030233D8F0000000001;
+			packageReferences = (
+				B787B072271CA2E1C6F23AB1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = A1000032233D8F0000000001 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -396,11 +563,20 @@
 				A1000040233D8F0000000001 /* APIPlayground */,
 				CC600000000000000000000A /* PlaygroundWidgetsExtension */,
 				DD600000000000000000000A /* APIInspector */,
+				104A3C8F19E7840F1DCE6FA5 /* APIPlaygroundWatch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2D38984377CD0E41DF5D47DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AE75CBCBCE4525ABCA98D6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1000042233D8F0000000001 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -427,6 +603,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1F6EC433FE5B6E15278E7FBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DF4A85BF084A8464A469ED /* APIPlaygroundWatchApp.swift in Sources */,
+				E9EF73DFE33A12A947FD2AE0 /* ContentView.swift in Sources */,
+				CEE38FD5FECB74750926C654 /* WatchHealthView.swift in Sources */,
+				783C4445C235AEA92614AA0C /* WatchHapticsView.swift in Sources */,
+				8EC36BBCF7BD94D9D25D4182 /* WatchCloudKitView.swift in Sources */,
+				6CD1C2EC06E83AD1A9B01C2A /* WatchConnectivityView.swift in Sources */,
+				16FBFB0078C65B9A5D3454C2 /* WatchMotionView.swift in Sources */,
+				4FC102AE9B73E66D8FCED6C0 /* WatchInfoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1000041233D8F0000000001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -480,6 +671,24 @@
 				EE888888888888888888888A /* RocketLaunchView.swift in Sources */,
 				EE999999999999999999999A /* SportsScoreView.swift in Sources */,
 				EEAAAAAAAAAAAAAAAAAAAAA /* EggTimerView.swift in Sources */,
+				GG111111111111111111111A /* DeviceInfoView.swift in Sources */,
+				GG222222222222222222222A /* TelephonyView.swift in Sources */,
+				GG333333333333333333333A /* AccessibilityView.swift in Sources */,
+				E820682A206D0F1E13CCCCEF /* TranslationView.swift in Sources */,
+				7558679FDAC48A22D92FFE2A /* SpotlightView.swift in Sources */,
+				64EE955D0812365B8E2B4E64 /* BackgroundTasksView.swift in Sources */,
+				04F105830D7B2ED10270B341 /* SharePlayView.swift in Sources */,
+				CCF54E65EAF1BE1BBC9B703A /* CallKitView.swift in Sources */,
+				8760CC2783395B4302084C7E /* CloudKitView.swift in Sources */,
+				2D652F2532C7C36C7CB2D071 /* PhotoMapModels.swift in Sources */,
+				CC43A428A7FCFDEB6E0DDC23 /* LocationManager.swift in Sources */,
+				53D899615DD17F6E628D3EDC /* CloudKitPhotoService.swift in Sources */,
+				43728489D801194677209CEF /* PhotoMapFeature.swift in Sources */,
+				C30C231C56BE123ECCDDF705 /* PhotoMapView.swift in Sources */,
+				D811BCE3926ECA3F6DE782EF /* PhotoCaptureView.swift in Sources */,
+				EFC7EE97C60F109D1CCA4A22 /* PhotoDetailView.swift in Sources */,
+				C5CCE1458517984CE0EF4FB2 /* PhotoStorageService.swift in Sources */,
+				52A04ACCB46578E97BC03169 /* GraphicsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +697,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC111111111111111111111A /* PlaygroundWidgetsBundle.swift in Sources */,
+				CCAAAAAAAAAAAAAAAAAAAAA /* DeviceStatsWidget.swift in Sources */,
+				CCBBBBBBBBBBBBBBBBBBBBA /* LockScreenWidgets.swift in Sources */,
+				CCCCCCCCCCCCCCCCCCCCCCA /* SystemMonitorControl.swift in Sources */,
 				CC222222222222222222222A /* DeliveryLiveActivity.swift in Sources */,
 				CC333333333333333333333A /* DeliveryActivityAttributes.swift in Sources */,
 				CC555555555555555555555A /* BreathingActivityAttributes.swift in Sources */,
@@ -521,6 +733,34 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		528F8CACA0DFD768D4BD97EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = APIPlaygroundWatch/APIPlaygroundWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "API Playground";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.apiplayground;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
 		A1000070233D8F0000000001 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -650,7 +890,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"APIPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = APIPlayground/Info.plist;
@@ -664,7 +904,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -682,7 +922,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"APIPlayground/Preview Content\"";
-				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = APIPlayground/Info.plist;
@@ -696,7 +936,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -704,12 +944,41 @@
 			};
 			name = Release;
 		};
+		C1A955A1DF294E91E8568547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = APIPlaygroundWatch/APIPlaygroundWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = AD8QKALG7C;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "API Playground";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.apiplayground;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 		CCD00000000000000000000A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PlaygroundWidgets/PlaygroundWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlaygroundWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PlaygroundWidgets;
@@ -720,7 +989,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.PlaygroundWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground.PlaygroundWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -732,9 +1001,10 @@
 		CCE00000000000000000000A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = PlaygroundWidgets/PlaygroundWidgets.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PlaygroundWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PlaygroundWidgets;
@@ -745,7 +1015,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.PlaygroundWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground.PlaygroundWidgets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -759,7 +1029,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = APIInspector/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "API Inspector";
@@ -770,7 +1040,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.APIInspector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground.APIInspector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -784,7 +1054,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GPBUHQ7LL7;
+				DEVELOPMENT_TEAM = AD8QKALG7C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = APIInspector/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "API Inspector";
@@ -795,7 +1065,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.personal.APIPlayground.APIInspector;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apiplayground.APIInspector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -807,15 +1077,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A1000061233D8F0000000001 /* Build configuration list for PBXProject "APIPlayground" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1000070233D8F0000000001 /* Debug */,
-				A1000071233D8F0000000001 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A1000050233D8F0000000001 /* Build configuration list for PBXNativeTarget "APIPlayground" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -825,11 +1086,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A1000061233D8F0000000001 /* Build configuration list for PBXProject "APIPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1000070233D8F0000000001 /* Debug */,
+				A1000071233D8F0000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CCA00000000000000000000A /* Build configuration list for PBXNativeTarget "PlaygroundWidgetsExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CCD00000000000000000000A /* Debug */,
 				CCE00000000000000000000A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4A7C0057EA84CA3BE6063A3 /* Build configuration list for PBXNativeTarget "APIPlaygroundWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1A955A1DF294E91E8568547 /* Release */,
+				528F8CACA0DFD768D4BD97EB /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -844,6 +1123,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B787B072271CA2E1C6F23AB1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CC9D88E463B0E9B02079EB7 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B787B072271CA2E1C6F23AB1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1000060233D8F0000000001 /* Project object */;
 }

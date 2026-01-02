@@ -1,0 +1,56 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/TelephonyView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Telephony",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Framework",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Cellular Data",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 22
+        }
+      },
+      {
+        "comment": "",
+        "key": "Carrier information is not available on this device or SIM is not inserted.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Core Telephony provides read-only access to carrier information. Some data may be restricted on iOS 16+ for privacy reasons.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Note",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 46
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -2,6 +2,17 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleURLName</key>
+            <string>com.apiplayground</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>apiplayground</string>
+            </array>
+        </dict>
+    </array>
     <key>NSSupportsLiveActivities</key>
     <true/>
     <key>NSSupportsLiveActivitiesFrequentUpdates</key>
@@ -44,5 +55,10 @@
     <string>This app requires full reminders access to demonstrate creating, editing, and completing reminders.</string>
     <key>NSContactsUsageDescription</key>
     <string>This app accesses your contacts to demonstrate the Contacts API including browsing and creating contacts.</string>
+    <key>BGTaskSchedulerPermittedIdentifiers</key>
+    <array>
+        <string>com.apiplayground.refresh</string>
+        <string>com.apiplayground.processing</string>
+    </array>
 </dict>
 </plist>

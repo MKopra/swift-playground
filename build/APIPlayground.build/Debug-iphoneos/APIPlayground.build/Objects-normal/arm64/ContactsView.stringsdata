@@ -1,0 +1,232 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ContactsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Contacts",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search contacts",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Contacts Access Granted",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Contacts Access Required",
+        "location": {
+          "startingColumn": 85,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Authorization",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Actions",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading contacts...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "No contacts found",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "No matches for '%@'",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "+ %lld more contacts",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "Contacts (%lld)",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "Phone Numbers",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 252
+        }
+      },
+      {
+        "comment": "",
+        "key": "Email Addresses",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 286
+        }
+      },
+      {
+        "comment": "",
+        "key": "Addresses",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 320
+        }
+      },
+      {
+        "comment": "",
+        "key": "Selected Contact",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 340
+        }
+      },
+      {
+        "comment": "",
+        "key": "Statistics",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 353
+        }
+      },
+      {
+        "comment": "",
+        "key": "The Contacts framework provides access to the user's contact data. ContactsUI provides pre-built UI for contact selection and viewing.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 368
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Information",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Contact",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 394
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 381
+        }
+      },
+      {
+        "comment": "",
+        "key": "Contact Info",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 386
+        }
+      },
+      {
+        "comment": "",
+        "key": "First Name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 382
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last Name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 383
+        }
+      },
+      {
+        "comment": "",
+        "key": "Phone Number",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 387
+        }
+      },
+      {
+        "comment": "",
+        "key": "Email",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 389
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 398
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 404
+        }
+      }
+    ]
+  },
+  "version": 1
+}

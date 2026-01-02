@@ -1,0 +1,96 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchConnectivityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "iPhone Sync",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "iPhone Connected",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "iPhone Not Reachable",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Paired",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not Paired",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Send to iPhone",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Message",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Received",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "No messages",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quick Actions",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 135
+        }
+      }
+    ]
+  },
+  "version": 1
+}
