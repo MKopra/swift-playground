@@ -1,0 +1,37 @@
+{
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/APIPlaygroundApp.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/APIPlaygroundApp.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/APIPlaygroundApp.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/APIPlaygroundApp.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/APIPlaygroundApp.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/APIPlaygroundApp.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CameraView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CameraView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CameraView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CameraView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CameraView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CameraView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ContentView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContentView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContentView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/FeatureDetailView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/FeatureDetailView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/FeatureDetailView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/FeatureDetailView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/FeatureDetailView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/FeatureDetailView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/SettingsRow.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SettingsRow.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SettingsRow.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SettingsRow.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SettingsRow.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SettingsRow.swiftdeps"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AuctionCountdownView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AuctionCountdownView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AuctionCountdownView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AuctionCountdownView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AuctionCountdownView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AuctionCountdownView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CaffeineTrackerView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CaffeineTrackerView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CaffeineTrackerView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CaffeineTrackerView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CaffeineTrackerView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CaffeineTrackerView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/RocketLaunchView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/RocketLaunchView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/RocketLaunchView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/RocketLaunchView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/RocketLaunchView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/RocketLaunchView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/WorkoutRestView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WorkoutRestView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WorkoutRestView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WorkoutRestView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WorkoutRestView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WorkoutRestView.swiftdeps"
+  }
+}

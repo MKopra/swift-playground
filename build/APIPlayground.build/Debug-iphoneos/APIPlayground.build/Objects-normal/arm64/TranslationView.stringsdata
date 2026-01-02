@@ -1,0 +1,160 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/TranslationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Translation",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "On-Device Translation",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 58
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type or paste text here...",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter text to translate",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld characters",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Detected: %@",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "Opens Apple's translation interface with on-device processing",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "Translate with System UI",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Translations",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "No translations yet",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Translation Features",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Supported Languages",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "• ~20 languages supported (vs 200+ in Google Translate)\n• Needs 10+ characters for language detection\n• Some languages require download\n• System UI provides best experience",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "Notes",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "The Translation framework requires iOS 17.4 or later.",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 316
+        }
+      },
+      {
+        "comment": "",
+        "key": "Translation Unavailable",
+        "location": {
+          "startingColumn": 13,
+          "startingLine": 314
+        }
+      },
+      {
+        "comment": "",
+        "key": "Translation",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 318
+        }
+      }
+    ]
+  },
+  "version": 1
+}

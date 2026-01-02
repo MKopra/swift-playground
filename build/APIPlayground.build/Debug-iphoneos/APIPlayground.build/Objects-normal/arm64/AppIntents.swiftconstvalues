@@ -1,0 +1,3494 @@
+[
+  {
+    "typeName": "APIPlayground.LogWorkoutSetIntent",
+    "mangledTypeName": "13APIPlayground19LogWorkoutSetIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 14,
+    "conformances": [
+      "AppIntents.LiveActivityIntent",
+      "AppIntents.SystemIntent",
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.LiveActivityIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.SystemIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.IntentResult",
+        "substitutedMangledTypeName": "13APIPlayground19LogWorkoutSetIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.IntentResult"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground013LogWorkoutSetC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 15,
+        "valueKind": "RawLiteral",
+        "value": "Log Set"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 16,
+        "valueKind": "RawLiteral",
+        "value": "Mark the current set as complete"
+      }
+    ],
+    "availabilityAttributes": [
+      {
+        "platform": "iOS",
+        "introducedVersion": "16.2",
+        "isUnavailable": false,
+        "isDeprecated": false
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.APIPlaygroundShortcuts",
+    "mangledTypeName": "13APIPlayground0A9ShortcutsV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 109,
+    "conformances": [
+      "AppIntents.AppShortcutsProvider",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppShortcutsProvider",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [],
+    "properties": [
+      {
+        "label": "appShortcuts",
+        "type": "Swift.Array<AppIntents.AppShortcut>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 110,
+        "valueKind": "Builder",
+        "value": {
+          "type": "AppIntents.AppShortcutsBuilder",
+          "members": [
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.GetSystemInfoIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.GetSystemInfoIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.GetSystemInfoIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "System info with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "CPU usage in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "RAM usage in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Check system with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "System Info"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "cpu"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.GetDeviceStatusIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.GetDeviceStatusIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.GetDeviceStatusIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Get device status with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Check my device with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Device info from "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "Device Status"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "iphone"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.PlayHapticIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.PlayHapticIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.PlayHapticIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Play haptic with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Vibrate with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Haptic feedback from "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "Play Haptic"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "waveform"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.GenerateQRCodeIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.GenerateQRCodeIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.GenerateQRCodeIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Generate QR code with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Create QR code using "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Make QR code in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "Generate QR Code"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "qrcode"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.GetAltitudeIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.GetAltitudeIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.GetAltitudeIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "What's my altitude with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Check altitude using "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Get elevation from "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "Get Altitude"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "mountain.2"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.GenerateRandomColorIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.GenerateRandomColorIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.GenerateRandomColorIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Generate random color with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Random color from "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Pick a color using "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "Random Color"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "paintpalette"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.ToggleTorchIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.ToggleTorchIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.ToggleTorchIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Toggle flashlight with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Turn on torch using "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Flashlight from "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "Toggle Torch"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "flashlight.on.fill"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "kind": "buildExpression",
+              "element": {
+                "valueKind": "InitCall",
+                "value": {
+                  "type": "AppIntents.AppShortcut",
+                  "arguments": [
+                    {
+                      "label": "intent",
+                      "type": "APIPlayground.CheckServicesStatusIntent",
+                      "valueKind": "InitCall",
+                      "value": {
+                        "type": "APIPlayground.CheckServicesStatusIntent",
+                        "arguments": []
+                      }
+                    },
+                    {
+                      "label": "phrases",
+                      "type": "Swift.Array<AppIntents.AppShortcutPhrase<APIPlayground.CheckServicesStatusIntent>>",
+                      "valueKind": "Array",
+                      "value": [
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "3rd party status with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Check services in "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "valueKind": "InterpolatedStringLiteral",
+                          "value": {
+                            "segments": [
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": "Are my services up with "
+                              },
+                              {
+                                "valueKind": "Enum",
+                                "value": {
+                                  "name": "applicationName"
+                                }
+                              },
+                              {
+                                "valueKind": "RawLiteral",
+                                "value": ""
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "label": "shortTitle",
+                      "type": "Foundation.LocalizedStringResource",
+                      "valueKind": "RawLiteral",
+                      "value": "3rd Party Status"
+                    },
+                    {
+                      "label": "systemImageName",
+                      "type": "Swift.String",
+                      "valueKind": "RawLiteral",
+                      "value": "network"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.GetDeviceStatusIntent",
+    "mangledTypeName": "13APIPlayground21GetDeviceStatusIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 204,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog & AppIntents.ReturnsValue<Swift.String>",
+        "substitutedMangledTypeName": "13APIPlayground21GetDeviceStatusIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog",
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.String",
+            "substitutedMangledTypeName": "SS"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground015GetDeviceStatusC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 205,
+        "valueKind": "RawLiteral",
+        "value": "Get Device Status"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 206,
+        "valueKind": "RawLiteral",
+        "value": "Get current device battery, storage, and network status"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 208,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.GetSystemInfoIntent",
+    "mangledTypeName": "13APIPlayground19GetSystemInfoIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 254,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog & AppIntents.ReturnsValue<Swift.String> & AppIntents.ShowsSnippetView",
+        "substitutedMangledTypeName": "13APIPlayground19GetSystemInfoIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog",
+          "AppIntents.ReturnsValue",
+          "AppIntents.ShowsSnippetView"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.String",
+            "substitutedMangledTypeName": "SS"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground013GetSystemInfoC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 255,
+        "valueKind": "RawLiteral",
+        "value": "System Info"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 256,
+        "valueKind": "RawLiteral",
+        "value": "Get current CPU and RAM usage"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 258,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.PlayHapticIntent",
+    "mangledTypeName": "13APIPlayground16PlayHapticIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 352,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog",
+        "substitutedMangledTypeName": "13APIPlayground16PlayHapticIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground010PlayHapticC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_pattern",
+        "type": "AppIntents.IntentParameter<APIPlayground.HapticPattern>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 357,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<APIPlayground.HapticPattern>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Pattern"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<APIPlayground.HapticPattern>",
+              "valueKind": "Enum",
+              "value": {
+                "name": "success"
+              }
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "supportedValues",
+              "type": "Swift.Array<APIPlayground.HapticPattern>",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 353,
+        "valueKind": "RawLiteral",
+        "value": "Play Haptic"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 354,
+        "valueKind": "RawLiteral",
+        "value": "Play a haptic feedback pattern on your device"
+      },
+      {
+        "label": "pattern",
+        "type": "APIPlayground.HapticPattern",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 357,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<APIPlayground.HapticPattern>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Pattern"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<APIPlayground.HapticPattern>",
+              "valueKind": "Enum",
+              "value": {
+                "name": "success"
+              }
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "supportedValues",
+              "type": "Swift.Array<APIPlayground.HapticPattern>",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+            "line": 356,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Pattern"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<APIPlayground.HapticPattern>",
+                "valueKind": "Enum",
+                "value": {
+                  "name": "success"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$pattern",
+        "type": "AppIntents.IntentParameter<APIPlayground.HapticPattern>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 357,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 359,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.HapticPattern",
+    "mangledTypeName": "13APIPlayground13HapticPatternO",
+    "kind": "enum",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 389,
+    "conformances": [
+      "Swift.Equatable",
+      "Swift.Hashable",
+      "Swift.RawRepresentable",
+      "AppIntents.AppEnum",
+      "AppIntents.AppValue",
+      "AppIntents.StaticDisplayRepresentable",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents.TypeDisplayRepresentable",
+      "AppIntents._IntentValue",
+      "Swift.Sendable",
+      "AppIntents.CaseDisplayRepresentable",
+      "Swift.SendableMetatype",
+      "Foundation.CustomLocalizedStringResourceConvertible",
+      "Swift.CaseIterable",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Swift.Equatable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Hashable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.RawRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.AppEnum",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.AppValue",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.StaticDisplayRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.TypeDisplayRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._IntentValue",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.CaseDisplayRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Foundation.CustomLocalizedStringResourceConvertible",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.CaseIterable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "RawValue",
+        "substitutedTypeName": "Swift.String",
+        "substitutedMangledTypeName": "SS"
+      },
+      {
+        "typeAliasName": "ValueType",
+        "substitutedTypeName": "APIPlayground.HapticPattern",
+        "substitutedMangledTypeName": "13APIPlayground13HapticPatternO"
+      },
+      {
+        "typeAliasName": "UnwrappedType",
+        "substitutedTypeName": "APIPlayground.HapticPattern",
+        "substitutedMangledTypeName": "13APIPlayground13HapticPatternO"
+      },
+      {
+        "typeAliasName": "Specification",
+        "substitutedTypeName": "some AppIntents.ResolverSpecification",
+        "substitutedMangledTypeName": "10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQOy13APIPlayground13HapticPatternO_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ResolverSpecification"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "AllCases",
+        "substitutedTypeName": "Swift.Array<APIPlayground.HapticPattern>",
+        "substitutedMangledTypeName": "Say13APIPlayground13HapticPatternOG"
+      }
+    ],
+    "properties": [
+      {
+        "label": "typeDisplayRepresentation",
+        "type": "AppIntents.TypeDisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 397,
+        "valueKind": "RawLiteral",
+        "value": "Haptic Pattern"
+      },
+      {
+        "label": "caseDisplayRepresentations",
+        "type": "Swift.Dictionary<APIPlayground.HapticPattern, AppIntents.DisplayRepresentation>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 399,
+        "valueKind": "Dictionary",
+        "value": [
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "success"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Success"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "Positive feedback"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "checkmark.circle"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "warning"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Warning"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "Caution feedback"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "exclamationmark.triangle"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "error"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Error"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "Negative feedback"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "xmark.circle"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "light"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Light Impact"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "Subtle tap"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "hand.tap"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "medium"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Medium Impact"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "Standard tap"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "hand.tap.fill"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "heavy"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Heavy Impact"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "Strong tap"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "hand.point.up.left.fill"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "allCases",
+        "type": "Swift.Array<APIPlayground.HapticPattern>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "valueKind": "Array",
+        "value": [
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "success"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "warning"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "error"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "light"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "medium"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "heavy"
+            }
+          }
+        ]
+      },
+      {
+        "label": "rawValue",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "valueKind": "Runtime"
+      }
+    ],
+    "cases": [
+      {
+        "name": "success",
+        "rawValue": "Success"
+      },
+      {
+        "name": "warning",
+        "rawValue": "Warning"
+      },
+      {
+        "name": "error",
+        "rawValue": "Error"
+      },
+      {
+        "name": "light",
+        "rawValue": "Light Impact"
+      },
+      {
+        "name": "medium",
+        "rawValue": "Medium Impact"
+      },
+      {
+        "name": "heavy",
+        "rawValue": "Heavy Impact"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.GenerateQRCodeIntent",
+    "mangledTypeName": "13APIPlayground20GenerateQRCodeIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 411,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog & AppIntents.ReturnsValue<AppIntents.IntentFile>",
+        "substitutedMangledTypeName": "13APIPlayground20GenerateQRCodeIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog",
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "AppIntents.IntentFile",
+            "substitutedMangledTypeName": "10AppIntents10IntentFileV"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground014GenerateQRCodeC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_content",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 416,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Content"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "_size",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 419,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Size"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "256"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 412,
+        "valueKind": "RawLiteral",
+        "value": "Generate QR Code"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 413,
+        "valueKind": "RawLiteral",
+        "value": "Create a QR code from text or URL"
+      },
+      {
+        "label": "content",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 416,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.String>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Content"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.String>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputOptions",
+              "type": "Swift.Optional<Swift.String.IntentInputOptions>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+            "line": 415,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Content"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$content",
+        "type": "AppIntents.IntentParameter<Swift.String>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 416,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "size",
+        "type": "Swift.Int",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 419,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Int>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Size"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Int>",
+              "valueKind": "RawLiteral",
+              "value": "256"
+            },
+            {
+              "label": "controlStyle",
+              "type": "AppIntents.IntentParameter<Swift.Int>.IntControlStyle",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "inclusiveRange",
+              "type": "Swift.Optional<(lowerBound: Swift.Int, upperBound: Swift.Int)>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+            "line": 418,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Size"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<Swift.Int>",
+                "valueKind": "RawLiteral",
+                "value": "256"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$size",
+        "type": "AppIntents.IntentParameter<Swift.Int>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 419,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 421,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.GetAltitudeIntent",
+    "mangledTypeName": "13APIPlayground17GetAltitudeIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 474,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog & AppIntents.ReturnsValue<Swift.String>",
+        "substitutedMangledTypeName": "13APIPlayground17GetAltitudeIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog",
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.String",
+            "substitutedMangledTypeName": "SS"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground011GetAltitudeC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 475,
+        "valueKind": "RawLiteral",
+        "value": "Get Altitude"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 476,
+        "valueKind": "RawLiteral",
+        "value": "Get your current altitude and barometric pressure"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 478,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.GenerateRandomColorIntent",
+    "mangledTypeName": "13APIPlayground25GenerateRandomColorIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 510,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog & AppIntents.ReturnsValue<Swift.String>",
+        "substitutedMangledTypeName": "13APIPlayground25GenerateRandomColorIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog",
+          "AppIntents.ReturnsValue"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.String",
+            "substitutedMangledTypeName": "SS"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground019GenerateRandomColorC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_copyToClipboard",
+        "type": "AppIntents.IntentParameter<Swift.Bool>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 515,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Bool>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Copy to Clipboard"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Bool>",
+              "valueKind": "RawLiteral",
+              "value": "true"
+            },
+            {
+              "label": "displayName",
+              "type": "Swift.Optional<Swift.Bool.IntentDisplayName>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 511,
+        "valueKind": "RawLiteral",
+        "value": "Generate Random Color"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 512,
+        "valueKind": "RawLiteral",
+        "value": "Generate a random color and get its hex code"
+      },
+      {
+        "label": "copyToClipboard",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 515,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Bool>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Copy to Clipboard"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<Swift.Bool>",
+              "valueKind": "RawLiteral",
+              "value": "true"
+            },
+            {
+              "label": "displayName",
+              "type": "Swift.Optional<Swift.Bool.IntentDisplayName>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+            "line": 514,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Copy to Clipboard"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<Swift.Bool>",
+                "valueKind": "RawLiteral",
+                "value": "true"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$copyToClipboard",
+        "type": "AppIntents.IntentParameter<Swift.Bool>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 515,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 517,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.ToggleTorchIntent",
+    "mangledTypeName": "13APIPlayground17ToggleTorchIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 556,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog",
+        "substitutedMangledTypeName": "13APIPlayground17ToggleTorchIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground011ToggleTorchC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_state",
+        "type": "AppIntents.IntentParameter<APIPlayground.TorchState>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 561,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<APIPlayground.TorchState>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "State"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<APIPlayground.TorchState>",
+              "valueKind": "Enum",
+              "value": {
+                "name": "toggle"
+              }
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "supportedValues",
+              "type": "Swift.Array<APIPlayground.TorchState>",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 557,
+        "valueKind": "RawLiteral",
+        "value": "Toggle Torch"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 558,
+        "valueKind": "RawLiteral",
+        "value": "Turn the device flashlight on or off"
+      },
+      {
+        "label": "state",
+        "type": "APIPlayground.TorchState",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 561,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<APIPlayground.TorchState>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "State"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<APIPlayground.TorchState>",
+              "valueKind": "Enum",
+              "value": {
+                "name": "toggle"
+              }
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "RawLiteral",
+              "value": "nil"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            },
+            {
+              "label": "supportedValues",
+              "type": "Swift.Array<APIPlayground.TorchState>",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+            "line": 560,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "State"
+              },
+              {
+                "label": "default",
+                "type": "Swift.Optional<APIPlayground.TorchState>",
+                "valueKind": "Enum",
+                "value": {
+                  "name": "toggle"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$state",
+        "type": "AppIntents.IntentParameter<APIPlayground.TorchState>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 561,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 563,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.TorchState",
+    "mangledTypeName": "13APIPlayground10TorchStateO",
+    "kind": "enum",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 601,
+    "conformances": [
+      "Swift.Equatable",
+      "Swift.Hashable",
+      "Swift.RawRepresentable",
+      "AppIntents.AppEnum",
+      "AppIntents.AppValue",
+      "AppIntents.StaticDisplayRepresentable",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents.TypeDisplayRepresentable",
+      "AppIntents._IntentValue",
+      "Swift.Sendable",
+      "AppIntents.CaseDisplayRepresentable",
+      "Swift.SendableMetatype",
+      "Foundation.CustomLocalizedStringResourceConvertible",
+      "Swift.CaseIterable",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "Swift.Equatable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Hashable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.RawRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.AppEnum",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.AppValue",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.StaticDisplayRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.TypeDisplayRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._IntentValue",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.CaseDisplayRepresentable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Foundation.CustomLocalizedStringResourceConvertible",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.CaseIterable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "RawValue",
+        "substitutedTypeName": "Swift.String",
+        "substitutedMangledTypeName": "SS"
+      },
+      {
+        "typeAliasName": "ValueType",
+        "substitutedTypeName": "APIPlayground.TorchState",
+        "substitutedMangledTypeName": "13APIPlayground10TorchStateO"
+      },
+      {
+        "typeAliasName": "UnwrappedType",
+        "substitutedTypeName": "APIPlayground.TorchState",
+        "substitutedMangledTypeName": "13APIPlayground10TorchStateO"
+      },
+      {
+        "typeAliasName": "Specification",
+        "substitutedTypeName": "some AppIntents.ResolverSpecification",
+        "substitutedMangledTypeName": "10AppIntents0A4EnumPAAE28defaultResolverSpecificationQrvpZQOy13APIPlayground10TorchStateO_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ResolverSpecification"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "AllCases",
+        "substitutedTypeName": "Swift.Array<APIPlayground.TorchState>",
+        "substitutedMangledTypeName": "Say13APIPlayground10TorchStateOG"
+      }
+    ],
+    "properties": [
+      {
+        "label": "typeDisplayRepresentation",
+        "type": "AppIntents.TypeDisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 606,
+        "valueKind": "RawLiteral",
+        "value": "Torch State"
+      },
+      {
+        "label": "caseDisplayRepresentations",
+        "type": "Swift.Dictionary<APIPlayground.TorchState, AppIntents.DisplayRepresentation>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 608,
+        "valueKind": "Dictionary",
+        "value": [
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "on"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "On"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "flashlight.on.fill"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "off"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Off"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "flashlight.off.fill"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "key": {
+              "valueKind": "Enum",
+              "value": {
+                "name": "toggle"
+              }
+            },
+            "value": {
+              "valueKind": "InitCall",
+              "value": {
+                "type": "AppIntents.DisplayRepresentation",
+                "arguments": [
+                  {
+                    "label": "title",
+                    "type": "Foundation.LocalizedStringResource",
+                    "valueKind": "RawLiteral",
+                    "value": "Toggle"
+                  },
+                  {
+                    "label": "subtitle",
+                    "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+                    "valueKind": "RawLiteral",
+                    "value": "nil"
+                  },
+                  {
+                    "label": "image",
+                    "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                    "valueKind": "InitCall",
+                    "value": {
+                      "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+                      "arguments": [
+                        {
+                          "label": "systemName",
+                          "type": "Swift.String",
+                          "valueKind": "RawLiteral",
+                          "value": "flashlight.on.fill"
+                        },
+                        {
+                          "label": "tintColor",
+                          "type": "Swift.Optional<UIKit.UIColor>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        },
+                        {
+                          "label": "symbolConfiguration",
+                          "type": "Swift.Optional<UIKit.UIImage.SymbolConfiguration>",
+                          "valueKind": "RawLiteral",
+                          "value": "nil"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "label": "allCases",
+        "type": "Swift.Array<APIPlayground.TorchState>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "true",
+        "valueKind": "Array",
+        "value": [
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "on"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "off"
+            }
+          },
+          {
+            "valueKind": "Enum",
+            "value": {
+              "name": "toggle"
+            }
+          }
+        ]
+      },
+      {
+        "label": "rawValue",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "valueKind": "Runtime"
+      }
+    ],
+    "cases": [
+      {
+        "name": "on",
+        "rawValue": "On"
+      },
+      {
+        "name": "off",
+        "rawValue": "Off"
+      },
+      {
+        "name": "toggle",
+        "rawValue": "Toggle"
+      }
+    ]
+  },
+  {
+    "typeName": "APIPlayground.CheckServicesStatusIntent",
+    "mangledTypeName": "13APIPlayground25CheckServicesStatusIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+    "line": 629,
+    "conformances": [
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "APIPlayground"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "APIPlayground"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.ProvidesDialog & AppIntents.ReturnsValue<Swift.String> & AppIntents.ShowsSnippetView",
+        "substitutedMangledTypeName": "13APIPlayground25CheckServicesStatusIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ProvidesDialog",
+          "AppIntents.ReturnsValue",
+          "AppIntents.ShowsSnippetView"
+        ],
+        "opaqueTypeSameTypeRequirements": [
+          {
+            "typeAliasName": "AppIntents.IntentResult.Value",
+            "substitutedTypeName": "Swift.String",
+            "substitutedMangledTypeName": "SS"
+          }
+        ]
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy13APIPlayground019CheckServicesStatusC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 630,
+        "valueKind": "RawLiteral",
+        "value": "3rd Party Status"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 631,
+        "valueKind": "RawLiteral",
+        "value": "Check status of business services like Mixpanel, Sentry, OpenAI, etc."
+      },
+      {
+        "label": "openAppWhenRun",
+        "type": "Swift.Bool",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 633,
+        "valueKind": "RawLiteral",
+        "value": "false"
+      },
+      {
+        "label": "statuspageServices",
+        "type": "Swift.Array<(name: Swift.String, baseURL: Swift.String)>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+        "line": 636,
+        "valueKind": "Array",
+        "value": [
+          {
+            "valueKind": "Tuple",
+            "value": [
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "Mixpanel"
+              },
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "https://www.mixpanelstatus.com"
+              }
+            ]
+          },
+          {
+            "valueKind": "Tuple",
+            "value": [
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "Sentry"
+              },
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "https://status.sentry.io"
+              }
+            ]
+          },
+          {
+            "valueKind": "Tuple",
+            "value": [
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "OpenAI"
+              },
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "https://status.openai.com"
+              }
+            ]
+          },
+          {
+            "valueKind": "Tuple",
+            "value": [
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "Claude"
+              },
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "https://status.anthropic.com"
+              }
+            ]
+          },
+          {
+            "valueKind": "Tuple",
+            "value": [
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "RevenueCat"
+              },
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "https://status.revenuecat.com"
+              }
+            ]
+          },
+          {
+            "valueKind": "Tuple",
+            "value": [
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "GitHub"
+              },
+              {
+                "type": "Swift.String",
+                "valueKind": "RawLiteral",
+                "value": "https://www.githubstatus.com"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

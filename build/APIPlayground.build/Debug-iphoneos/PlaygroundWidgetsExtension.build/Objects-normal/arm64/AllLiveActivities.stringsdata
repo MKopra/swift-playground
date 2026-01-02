@@ -1,0 +1,448 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/AllLiveActivities.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Log Set",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mark the current set as complete",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 12
+        }
+      },
+      {
+        "comment": "",
+        "key": "Session %lld/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Focus Time",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "Break Time",
+        "location": {
+          "startingColumn": 69,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Focus",
+        "location": {
+          "startingColumn": 58,
+          "startingLine": 158
+        }
+      },
+      {
+        "comment": "",
+        "key": "Break",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 158
+        }
+      },
+      {
+        "comment": "",
+        "key": "EXPIRED",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 220
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 224
+        }
+      },
+      {
+        "comment": "",
+        "key": "min left",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "EXPIRED",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldm",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 265
+        }
+      },
+      {
+        "comment": "",
+        "key": "Started %@ ago",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 307
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 315
+        }
+      },
+      {
+        "comment": "",
+        "key": "mg caffeine",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 317
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldmg",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 332
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear by %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 339
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set %lld/%lld • %lldlb × %lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 376
+        }
+      },
+      {
+        "comment": "",
+        "key": "0:00",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 392
+        }
+      },
+      {
+        "comment": "",
+        "key": "LOG SET",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 403
+        }
+      },
+      {
+        "comment": "",
+        "key": "LOG SET",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 420
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set %lld/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 442
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lldlb × %lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 450
+        }
+      },
+      {
+        "comment": "",
+        "key": "0:00",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 464
+        }
+      },
+      {
+        "comment": "",
+        "key": "LOG SET",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 474
+        }
+      },
+      {
+        "comment": "",
+        "key": "LOG SET",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "0:00",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 511
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 518
+        }
+      },
+      {
+        "comment": "",
+        "key": "0:00",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 530
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 537
+        }
+      },
+      {
+        "comment": "",
+        "key": "$%.2f",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 566
+        }
+      },
+      {
+        "comment": "",
+        "key": "• %lld bids",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 569
+        }
+      },
+      {
+        "comment": "",
+        "key": "WON!",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 579
+        }
+      },
+      {
+        "comment": "",
+        "key": "LOST",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 579
+        }
+      },
+      {
+        "comment": "",
+        "key": "Winning",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 586
+        }
+      },
+      {
+        "comment": "",
+        "key": "Outbid",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 586
+        }
+      },
+      {
+        "comment": "",
+        "key": "$%.0f",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 601
+        }
+      },
+      {
+        "comment": "",
+        "key": "Winning",
+        "location": {
+          "startingColumn": 56,
+          "startingLine": 606
+        }
+      },
+      {
+        "comment": "",
+        "key": "Outbid!",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 606
+        }
+      },
+      {
+        "comment": "",
+        "key": "+%@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 676
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 748
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 782
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 805
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 814
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 829
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 832
+        }
+      },
+      {
+        "comment": "",
+        "key": "DONE!",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 873
+        }
+      },
+      {
+        "comment": "",
+        "key": "!",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 855
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 855
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld egg%@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 865
+        }
+      },
+      {
+        "comment": "",
+        "key": "Eggs are ready!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 898
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld eggs",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 902
+        }
+      }
+    ]
+  },
+  "version": 1
+}

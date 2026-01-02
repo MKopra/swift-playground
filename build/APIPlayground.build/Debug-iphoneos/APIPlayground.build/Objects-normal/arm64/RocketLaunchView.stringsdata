@@ -1,0 +1,200 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/RocketLaunchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Rocket Launch",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "T-%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "HOLD",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "+%lld",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 71
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mission Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 90
+        }
+      },
+      {
+        "comment": "",
+        "key": "Launch Visualization",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "All systems nominal",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Telemetry",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mission Name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Rocket Name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Countdown",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "Countdown",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "30 sec",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "1 min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "2 min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 211
+        }
+      },
+      {
+        "comment": "",
+        "key": "5 min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 212
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mission Configuration",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Countdown",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 235
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resume Countdown",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "HOLD",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 256
+        }
+      },
+      {
+        "comment": "",
+        "key": "Abort Mission",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 267
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mission Control",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 276
+        }
+      },
+      {
+        "comment": "",
+        "key": "Experience the excitement of a rocket launch countdown. Watch the phases progress from T-minus through liftoff, Max-Q, MECO, and mission success - all tracked live on your Dynamic Island.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 289
+        }
+      },
+      {
+        "comment": "",
+        "key": "About",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 294
+        }
+      }
+    ]
+  },
+  "version": 1
+}

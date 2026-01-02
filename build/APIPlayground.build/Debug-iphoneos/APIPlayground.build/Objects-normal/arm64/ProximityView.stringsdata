@@ -1,0 +1,248 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ProximityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Proximity",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-Dim",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "OBJECT DETECTED",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "CLEAR",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "Something is near the sensor",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "No objects detected nearby",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start monitoring to detect objects",
+        "location": {
+          "startingColumn": 84,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last: %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Monitoring",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 220
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Monitoring",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 220
+        }
+      },
+      {
+        "comment": "",
+        "key": "Event History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 395
+        }
+      },
+      {
+        "comment": "",
+        "key": "Proximity events will appear here",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 361
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Events",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 359
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration: %@",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 378
+        }
+      },
+      {
+        "comment": "",
+        "key": "Object Detected",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "Object Removed",
+        "location": {
+          "startingColumn": 77,
+          "startingLine": 373
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 399
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 464
+        }
+      },
+      {
+        "comment": "",
+        "key": "Behavior",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 425
+        }
+      },
+      {
+        "comment": "",
+        "key": "Statistics",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 447
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-Dim Screen",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 427
+        }
+      },
+      {
+        "comment": "",
+        "key": "Haptic Feedback",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "Auto-Dim simulates phone call behavior where the screen dims when the device is near your face.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 437
+        }
+      },
+      {
+        "comment": "",
+        "key": "Note: Actual screen brightness is managed by the system on iOS. This demo simulates the effect with a dark overlay.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 441
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Detections",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 448
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Detection Time",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 449
+        }
+      },
+      {
+        "comment": "",
+        "key": "Avg Detection Duration",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 451
+        }
+      },
+      {
+        "comment": "",
+        "key": "Events Logged",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 453
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear History",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 460
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 468
+        }
+      }
+    ]
+  },
+  "version": 1
+}

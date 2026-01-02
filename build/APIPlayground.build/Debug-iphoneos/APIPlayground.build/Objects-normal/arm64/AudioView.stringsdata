@@ -1,0 +1,160 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AudioView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Audio",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 60
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mode",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monitor",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Record",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Library",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "dB",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "Peak:",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 158
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reset",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Monitoring",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Monitoring",
+        "location": {
+          "startingColumn": 69,
+          "startingLine": 186
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Recording",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 374
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 253
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording Complete",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 291
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording name",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 375
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 376
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter a name for your recording",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 382
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Recordings",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 439
+        }
+      },
+      {
+        "comment": "",
+        "key": "Record audio and save it to see it here",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 442
+        }
+      }
+    ]
+  },
+  "version": 1
+}

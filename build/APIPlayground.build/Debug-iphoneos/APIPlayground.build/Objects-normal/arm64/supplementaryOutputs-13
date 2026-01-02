@@ -1,0 +1,30 @@
+{
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AccessibilityView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AccessibilityView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AccessibilityView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AccessibilityView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AccessibilityView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/AccessibilityView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/BackgroundTasksView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/BackgroundTasksView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/BackgroundTasksView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/BackgroundTasksView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/BackgroundTasksView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/BackgroundTasksView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/SpotlightView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SpotlightView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SpotlightView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SpotlightView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SpotlightView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/SpotlightView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/TranslationView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TranslationView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TranslationView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TranslationView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TranslationView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TranslationView.swiftdeps"
+  }
+}

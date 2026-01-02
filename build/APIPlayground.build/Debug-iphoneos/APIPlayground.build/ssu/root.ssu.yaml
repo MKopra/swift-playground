@@ -1,0 +1,131 @@
+apiVersion: ssu/v1
+nlu:
+  shortcuts:
+    bundleIdentifier: com.apiplayground
+    intents:
+    - metadata:
+        name: GetSystemInfoIntent_0
+        title: System Info
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }System info with ${+applicationName}'
+          - '{${+prefix} }CPU usage in ${+applicationName}'
+          - '{${+prefix} }RAM usage in ${+applicationName}'
+          - '{${+prefix} }Check system with ${+applicationName}'
+    - metadata:
+        name: GetDeviceStatusIntent_1
+        title: Get Device Status
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Get device status with ${+applicationName}'
+          - '{${+prefix} }Check my device with ${+applicationName}'
+          - '{${+prefix} }Device info from ${+applicationName}'
+    - metadata:
+        name: PlayHapticIntent_2
+        title: Play Haptic
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Play haptic with ${+applicationName}'
+          - '{${+prefix} }Vibrate with ${+applicationName}'
+          - '{${+prefix} }Haptic feedback from ${+applicationName}'
+    - metadata:
+        name: GenerateQRCodeIntent_3
+        title: Generate QR Code
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Generate QR code with ${+applicationName}'
+          - '{${+prefix} }Create QR code using ${+applicationName}'
+          - '{${+prefix} }Make QR code in ${+applicationName}'
+    - metadata:
+        name: GetAltitudeIntent_4
+        title: Get Altitude
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }What''s my altitude with ${+applicationName}'
+          - '{${+prefix} }Check altitude using ${+applicationName}'
+          - '{${+prefix} }Get elevation from ${+applicationName}'
+    - metadata:
+        name: GenerateRandomColorIntent_5
+        title: Generate Random Color
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Generate random color with ${+applicationName}'
+          - '{${+prefix} }Random color from ${+applicationName}'
+          - '{${+prefix} }Pick a color using ${+applicationName}'
+    - metadata:
+        name: ToggleTorchIntent_6
+        title: Toggle Torch
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }Toggle flashlight with ${+applicationName}'
+          - '{${+prefix} }Turn on torch using ${+applicationName}'
+          - '{${+prefix} }Flashlight from ${+applicationName}'
+    - metadata:
+        name: CheckServicesStatusIntent_7
+        title: 3rd Party Status
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }3rd party status with ${+applicationName}'
+          - '{${+prefix} }Check services in ${+applicationName}'
+          - '{${+prefix} }Are my services up with ${+applicationName}'
+    - metadata:
+        name: +negative
+      corpuses:
+        training:
+        - locale: en
+          utterances:
+          - '{${+prefix} }${+standardAppShortcutNegatives}'
+variables:
+- name: +applicationName
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+    - APIPlayground
+- name: HapticPattern
+  type: ssu/parameter
+  definitions:
+  - locale: en
+    synomyms:
+    - Success
+    - Warning
+    - Error
+    - Light Impact
+    - Medium Impact
+    - Heavy Impact
+- name: TorchState
+  type: ssu/parameter
+  definitions:
+  - locale: en
+    synomyms:
+    - 'On'
+    - 'Off'
+    - Toggle
+- name: +prefix
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/prefix/en.yaml
+- name: +standardAppShortcutNegatives
+  type: ssu/expansion
+  definitions:
+  - locale: en
+    synomyms:
+      $ref: ssu://Resources/standardAppShortcutNegatives/en.yaml

@@ -1,0 +1,416 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ARKitView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "AR Experience",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "AR Snapshot Saved",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 241
+        }
+      },
+      {
+        "comment": "",
+        "key": "Point at a flat surface to place objects",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld surface%@ detected",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld image%@ detected",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 168
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld object%@ placed",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 139
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Capture",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tracking %lld joints",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 428
+        }
+      },
+      {
+        "comment": "",
+        "key": "ARKit Features",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 513
+        }
+      },
+      {
+        "comment": "",
+        "key": "Available Modes",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 444
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device Capabilities",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 475
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plane Detection",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 485
+        }
+      },
+      {
+        "comment": "",
+        "key": "Environment Features",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "Frame Semantics",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 500
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tips",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 506
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not Supported",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 457
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Horizontal planes (floors, tables)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 486
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Vertical planes (walls)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 487
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Automatic plane merging",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Classification (floor, seat, table, etc.)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 489
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Automatic environment texturing",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 493
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Manual probe placement",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 494
+        }
+      },
+      {
+        "comment": "",
+        "key": "• HDR environment maps",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 495
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Light estimation",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 496
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Realistic reflections",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 497
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Person segmentation",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 501
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Person segmentation with depth",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 502
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Body detection",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 503
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 517
+        }
+      },
+      {
+        "comment": "",
+        "key": "AR Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 595
+        }
+      },
+      {
+        "comment": "",
+        "key": "Plane Detection",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 561
+        }
+      },
+      {
+        "comment": "",
+        "key": "Environment",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 566
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug Visualization",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 572
+        }
+      },
+      {
+        "comment": "",
+        "key": "Object Shapes",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 579
+        }
+      },
+      {
+        "comment": "",
+        "key": "Horizontal",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 562
+        }
+      },
+      {
+        "comment": "",
+        "key": "Vertical",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 563
+        }
+      },
+      {
+        "comment": "",
+        "key": "Environment Texturing",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 567
+        }
+      },
+      {
+        "comment": "",
+        "key": "People Occlusion",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 568
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Feature Points",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 573
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show World Origin",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 574
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Anchors",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 575
+        }
+      },
+      {
+        "comment": "",
+        "key": "Show Mesh",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 576
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shape",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 580
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cube",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 581
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sphere",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 582
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cylinder",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 583
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cone",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 584
+        }
+      },
+      {
+        "comment": "",
+        "key": "Size",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 588
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 599
+        }
+      }
+    ]
+  },
+  "version": 1
+}

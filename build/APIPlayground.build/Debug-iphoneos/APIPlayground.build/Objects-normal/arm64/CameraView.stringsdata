@@ -1,0 +1,480 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CameraView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Camera",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Requesting camera access...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 168
+        }
+      },
+      {
+        "comment": "",
+        "key": "HDR",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "ISO",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 349
+        }
+      },
+      {
+        "comment": "",
+        "key": "Photo",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 551
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 556
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 567
+        }
+      },
+      {
+        "comment": "",
+        "key": "Camera Access Required",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 588
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enable camera access in Settings to take photos and videos.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 592
+        }
+      },
+      {
+        "comment": "",
+        "key": "Open Settings",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 598
+        }
+      },
+      {
+        "comment": "",
+        "key": "Camera Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 710
+        }
+      },
+      {
+        "comment": "",
+        "key": "Photo Settings",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 667
+        }
+      },
+      {
+        "comment": "",
+        "key": "Video Settings",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 680
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 696
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stabilization",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 702
+        }
+      },
+      {
+        "comment": "",
+        "key": "Format",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 668
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Photo",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 674
+        }
+      },
+      {
+        "comment": "",
+        "key": "HDR",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 677
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resolution",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 681
+        }
+      },
+      {
+        "comment": "",
+        "key": "Frame Rate",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 687
+        }
+      },
+      {
+        "comment": "",
+        "key": "HDR Video",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 693
+        }
+      },
+      {
+        "comment": "",
+        "key": "4K",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 682
+        }
+      },
+      {
+        "comment": "",
+        "key": "1080p",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 683
+        }
+      },
+      {
+        "comment": "",
+        "key": "720p",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 684
+        }
+      },
+      {
+        "comment": "",
+        "key": "24 fps",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 688
+        }
+      },
+      {
+        "comment": "",
+        "key": "30 fps",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 689
+        }
+      },
+      {
+        "comment": "",
+        "key": "60 fps",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 690
+        }
+      },
+      {
+        "comment": "",
+        "key": "Manual Controls",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 697
+        }
+      },
+      {
+        "comment": "",
+        "key": "Grid Lines",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 698
+        }
+      },
+      {
+        "comment": "",
+        "key": "Level",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 699
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mode",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 703
+        }
+      },
+      {
+        "comment": "",
+        "key": "Off",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 704
+        }
+      },
+      {
+        "comment": "",
+        "key": "Standard",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 705
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cinematic",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 706
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 714
+        }
+      },
+      {
+        "comment": "",
+        "key": "AVFoundation Features",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 783
+        }
+      },
+      {
+        "comment": "",
+        "key": "Capture Modes",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 740
+        }
+      },
+      {
+        "comment": "",
+        "key": "Camera Features",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 747
+        }
+      },
+      {
+        "comment": "",
+        "key": "Manual Controls",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 755
+        }
+      },
+      {
+        "comment": "",
+        "key": "Photo Formats",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 763
+        }
+      },
+      {
+        "comment": "",
+        "key": "Video Formats",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 770
+        }
+      },
+      {
+        "comment": "",
+        "key": "Gestures",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 777
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Focus: Tap to set focus point",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 756
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Exposure: -3 to +3 EV adjustment",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 757
+        }
+      },
+      {
+        "comment": "",
+        "key": "• ISO: Control sensor sensitivity",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 758
+        }
+      },
+      {
+        "comment": "",
+        "key": "• White Balance: 2000K to 8000K",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 759
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Shutter Speed: 1/8000s to 1s",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 760
+        }
+      },
+      {
+        "comment": "",
+        "key": "• HEIC: High efficiency, smaller files",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 764
+        }
+      },
+      {
+        "comment": "",
+        "key": "• JPEG: Universal compatibility",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 765
+        }
+      },
+      {
+        "comment": "",
+        "key": "• RAW: Maximum editing flexibility",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 766
+        }
+      },
+      {
+        "comment": "",
+        "key": "• ProRAW: RAW + computational photography",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 767
+        }
+      },
+      {
+        "comment": "",
+        "key": "• H.264: Wide compatibility",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 771
+        }
+      },
+      {
+        "comment": "",
+        "key": "• HEVC: Better compression",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 772
+        }
+      },
+      {
+        "comment": "",
+        "key": "• ProRes: Professional quality",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 773
+        }
+      },
+      {
+        "comment": "",
+        "key": "• HDR: High dynamic range",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 774
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Tap: Set focus and exposure point",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 778
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Pinch: Zoom in/out",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 779
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Swipe: Switch capture modes",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 780
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 787
+        }
+      }
+    ]
+  },
+  "version": 1
+}

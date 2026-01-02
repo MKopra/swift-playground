@@ -1,0 +1,208 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/SharePlayView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "SharePlay",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Demo",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "Note: SharePlay requires an active FaceTime call or Messages conversation",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "SharePlay Active",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not in SharePlay",
+        "location": {
+          "startingColumn": 78,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld participant(s)",
+        "location": {
+          "startingColumn": 57,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start a FaceTime call to use SharePlay",
+        "location": {
+          "startingColumn": 113,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start SharePlay",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Session",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "Synced Counter",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 144
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 147
+        }
+      },
+      {
+        "comment": "",
+        "key": "All participants see the same number in real-time",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "Draw together in real-time",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 266
+        }
+      },
+      {
+        "comment": "",
+        "key": "Collaborative Canvas",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 194
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 200
+        }
+      },
+      {
+        "comment": "",
+        "key": "Emoji Reactions",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "Send reactions that everyone sees",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 308
+        }
+      },
+      {
+        "comment": "",
+        "key": "Participants",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 321
+        }
+      },
+      {
+        "comment": "",
+        "key": "You",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 341
+        }
+      },
+      {
+        "comment": "",
+        "key": "Messages will appear here when syncing with other participants",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 375
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sync Messages",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 362
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "How SharePlay Works",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 408
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Active FaceTime call or Messages conversation\n• All participants need app installed\n• iOS 15+ / macOS 12+\n• Works across Apple devices",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 443
+        }
+      },
+      {
+        "comment": "",
+        "key": "Requirements",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 439
+        }
+      }
+    ]
+  },
+  "version": 1
+}

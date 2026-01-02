@@ -1,0 +1,21 @@
+{
+  "tables" : {
+    "AppShortcuts" : [
+      {
+        "values" : [
+          "Show system stats in ${applicationName}",
+          "What's my CPU usage in ${applicationName}",
+          "Check RAM usage in ${applicationName}",
+          "System info ${applicationName}"
+        ],
+        "key" : "Show system stats in ${applicationName}",
+        "location" : {
+          "startingColumn" : 0,
+          "startingLine" : 129
+        }
+      }
+    ]
+  },
+  "version" : 1,
+  "source" : "\/Users\/mattkopra\/prod_repos\/swift_playground\/PlaygroundWidgets\/SystemMonitorControl.swift"
+}

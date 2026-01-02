@@ -1,0 +1,288 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/EventKitView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Calendar & Reminders",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "View",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "Events",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reminders",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calendars",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calendar Access",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reminders Access",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Permissions",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Event Title",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Date & Time",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 122
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "Duration",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 127
+        }
+      },
+      {
+        "comment": "",
+        "key": "30 min",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 128
+        }
+      },
+      {
+        "comment": "",
+        "key": "1 hour",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "2 hours",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "All day",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Event",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Event",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "No upcoming events",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Upcoming Events (%lld)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 166
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reminder Title",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 177
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set Due Date",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 180
+        }
+      },
+      {
+        "comment": "",
+        "key": "Due Date",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 183
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Reminder",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 187
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Reminder",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "No reminders",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reminders (%lld)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 218
+        }
+      },
+      {
+        "comment": "",
+        "key": "Calendars (%lld)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reminder Lists (%lld)",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 245
+        }
+      },
+      {
+        "comment": "",
+        "key": "Capabilities",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 259
+        }
+      },
+      {
+        "comment": "",
+        "key": "EventKit provides access to calendar events and reminders. Changes sync automatically with iCloud and other calendar services.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 275
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Information",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 280
+        }
+      },
+      {
+        "comment": "",
+        "key": "All day",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 339
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 440
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,192 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ScreenRecordView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Screen Record",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 231
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap the button to start",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready to Record",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording Unavailable",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recording",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microphone",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Record audio from microphone",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Recordings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 182
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Recording",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Recording",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "Audio",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 318
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quality",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Options",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 335
+        }
+      },
+      {
+        "comment": "",
+        "key": "Microphone",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 320
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Audio",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 324
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resolution",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 329
+        }
+      },
+      {
+        "comment": "",
+        "key": "Standard (720p)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 330
+        }
+      },
+      {
+        "comment": "",
+        "key": "High (1080p)",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 331
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save to Photos",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 337
+        }
+      },
+      {
+        "comment": "",
+        "key": "Screen recordings capture everything visible on screen. Make sure to hide sensitive information before recording.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 342
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 351
+        }
+      }
+    ]
+  },
+  "version": 1
+}

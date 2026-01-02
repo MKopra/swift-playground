@@ -1,0 +1,30 @@
+{
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CompassView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CompassView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CompassView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CompassView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CompassView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/CompassView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/NetworkView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/NetworkView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/NetworkView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/NetworkView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/NetworkView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/NetworkView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ProximityView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ProximityView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ProximityView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ProximityView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ProximityView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ProximityView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/TorchView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TorchView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TorchView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TorchView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TorchView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/TorchView.swiftdeps"
+  }
+}

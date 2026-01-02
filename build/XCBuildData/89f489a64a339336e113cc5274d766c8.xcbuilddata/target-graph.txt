@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'APIPlayground' in project 'APIPlayground'
+➜ Explicit dependency on target 'PlaygroundWidgetsExtension' in project 'APIPlayground'
+➜ Explicit dependency on target 'APIInspector' in project 'APIPlayground'
+Target 'APIInspector' in project 'APIPlayground' (no dependencies)
+Target 'PlaygroundWidgetsExtension' in project 'APIPlayground' (no dependencies)

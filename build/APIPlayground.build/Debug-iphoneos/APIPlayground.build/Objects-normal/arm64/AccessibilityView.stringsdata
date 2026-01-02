@@ -1,0 +1,64 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AccessibilityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Accessibility",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Visual",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 10
+        }
+      },
+      {
+        "comment": "",
+        "key": "Motion",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Audio & Captions",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Interaction",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Display",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Framework",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 146
+        }
+      }
+    ]
+  },
+  "version": 1
+}

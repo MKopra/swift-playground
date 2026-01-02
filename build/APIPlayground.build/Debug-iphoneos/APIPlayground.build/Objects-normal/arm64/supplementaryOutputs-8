@@ -1,0 +1,30 @@
+{
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ContactsView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContactsView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContactsView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContactsView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContactsView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/ContactsView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/DataScannerView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/DataScannerView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/DataScannerView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/DataScannerView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/DataScannerView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/DataScannerView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/EventKitView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/EventKitView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/EventKitView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/EventKitView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/EventKitView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/EventKitView.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/WeatherKitView.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WeatherKitView.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WeatherKitView.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WeatherKitView.dia",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WeatherKitView.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/APIPlayground.build/Objects-normal/arm64/WeatherKitView.swiftdeps"
+  }
+}

@@ -1,0 +1,105 @@
+[
+  {
+    "typeName": "PlaygroundWidgetsExtension.LogWorkoutSetIntent",
+    "mangledTypeName": "26PlaygroundWidgetsExtension19LogWorkoutSetIntentV",
+    "kind": "struct",
+    "file": "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/AllLiveActivities.swift",
+    "line": 10,
+    "conformances": [
+      "AppIntents.LiveActivityIntent",
+      "AppIntents.SystemIntent",
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.LiveActivityIntent",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.SystemIntent",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "PlaygroundWidgetsExtension"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "some AppIntents.IntentResult",
+        "substitutedMangledTypeName": "26PlaygroundWidgetsExtension19LogWorkoutSetIntentV7performQryYaKFQOy_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.IntentResult"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy26PlaygroundWidgetsExtension013LogWorkoutSetC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/AllLiveActivities.swift",
+        "line": 11,
+        "valueKind": "RawLiteral",
+        "value": "Log Set"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/AllLiveActivities.swift",
+        "line": 12,
+        "valueKind": "RawLiteral",
+        "value": "Mark the current set as complete"
+      }
+    ],
+    "availabilityAttributes": [
+      {
+        "platform": "iOS",
+        "introducedVersion": "16.2",
+        "isUnavailable": false,
+        "isDeprecated": false
+      }
+    ]
+  }
+]

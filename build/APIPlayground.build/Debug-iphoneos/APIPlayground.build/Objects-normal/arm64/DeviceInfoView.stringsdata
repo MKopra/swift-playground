@@ -1,0 +1,120 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/DeviceInfoView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Device Info",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU & RAM",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hardware",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 158
+        }
+      },
+      {
+        "comment": "",
+        "key": "Storage",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 164
+        }
+      },
+      {
+        "comment": "",
+        "key": "System State",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Process",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU Usage",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "RAM Usage",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "RAM",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ / %@ GB",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Thermal State",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 176
+        }
+      }
+    ]
+  },
+  "version": 1
+}

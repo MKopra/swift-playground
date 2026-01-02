@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/FeatureDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Coming soon...",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 17
+        }
+      }
+    ]
+  },
+  "version": 1
+}

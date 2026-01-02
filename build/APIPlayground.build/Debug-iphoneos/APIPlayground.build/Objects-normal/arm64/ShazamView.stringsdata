@@ -1,0 +1,72 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/ShazamView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Music Recognition",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap to cancel",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop Listening",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Listening",
+        "location": {
+          "startingColumn": 70,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 400
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recognized songs will appear here",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 349
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Matches",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 347
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 404
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,296 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CloudKitView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "CloudKit Sync",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last synced: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "iCloud Account",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Actions",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "Refresh",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 188
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Samples",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 202
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete All",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 218
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 230
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create notes that sync across all your devices",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 259
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Notes Yet",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 257
+        }
+      },
+      {
+        "comment": "",
+        "key": "Synced Notes",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 247
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld notes",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 250
+        }
+      },
+      {
+        "comment": "",
+        "key": "•",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 299
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sync events will appear here",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 351
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sync Log",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 338
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 342
+        }
+      },
+      {
+        "comment": "",
+        "key": "How CloudKit Sync Works",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 385
+        }
+      },
+      {
+        "comment": "",
+        "key": "• 1MB max record size\n• Rate limiting on heavy usage\n• watchOS simulator doesn't support CloudKit\n• Requires iCloud account signed in\n• Delta sync with CKServerChangeToken",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 425
+        }
+      },
+      {
+        "comment": "",
+        "key": "Limitations",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 421
+        }
+      },
+      {
+        "comment": "",
+        "key": "Run this app on multiple devices (iPhone, iPad, Mac, Apple Watch) signed into the same iCloud account to see real-time sync in action!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 439
+        }
+      },
+      {
+        "comment": "",
+        "key": "Multi-Device Sync",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 435
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Note",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 477
+        }
+      },
+      {
+        "comment": "",
+        "key": "Note Details",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 471
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 472
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 481
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit Note",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 565
+        }
+      },
+      {
+        "comment": "",
+        "key": "Note Details",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 553
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sync Info",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 559
+        }
+      },
+      {
+        "comment": "",
+        "key": "Title",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 554
+        }
+      },
+      {
+        "comment": "",
+        "key": "Created",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 560
+        }
+      },
+      {
+        "comment": "",
+        "key": "Modified",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 561
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 562
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 569
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 572
+        }
+      }
+    ]
+  },
+  "version": 1
+}

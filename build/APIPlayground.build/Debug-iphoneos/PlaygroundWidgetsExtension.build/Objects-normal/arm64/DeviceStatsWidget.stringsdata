@@ -1,0 +1,112 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/DeviceStatsWidget.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "CPU & RAM",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 201
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "RAM",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 246
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 275
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 334
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 327
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@/%@GB",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 367
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 360
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 393
+        }
+      },
+      {
+        "comment": "",
+        "key": "CPU & RAM",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 450
+        }
+      },
+      {
+        "comment": "",
+        "key": "Monitor CPU, RAM, and battery usage. Tap to view details.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 451
+        }
+      }
+    ]
+  },
+  "version": 1
+}

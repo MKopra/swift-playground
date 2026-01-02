@@ -1,0 +1,109 @@
+{
+  "" : {
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsExtension-primary.dia",
+    "emit-module-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsExtension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsExtension-primary-emit-module.dia",
+    "pch" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsExtension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsExtension-primary.swiftdeps"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/BreathingActivityAttributes.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingActivityAttributes~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/DeliveryActivityAttributes.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryActivityAttributes~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/LiveActivityAttributes.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LiveActivityAttributes~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/AllLiveActivities.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/AllLiveActivities~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/BreathingLiveActivity.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/BreathingLiveActivity~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/DeliveryLiveActivity.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeliveryLiveActivity~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/DeviceStatsWidget.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/DeviceStatsWidget~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/LockScreenWidgets.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/LockScreenWidgets~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/PlaygroundWidgetsBundle.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/PlaygroundWidgetsBundle~partial.swiftmodule"
+  },
+  "/Users/mattkopra/prod_repos/swift_playground/PlaygroundWidgets/SystemMonitorControl.swift" : {
+    "const-values" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.swiftconstvalues",
+    "dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.d",
+    "diagnostics" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.dia",
+    "index-unit-output-path" : "/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.o",
+    "llvm-bc" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.bc",
+    "object" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.o",
+    "swift-dependencies" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl.swiftdeps",
+    "swiftmodule" : "/Users/mattkopra/prod_repos/swift_playground/build/APIPlayground.build/Debug-iphoneos/PlaygroundWidgetsExtension.build/Objects-normal/arm64/SystemMonitorControl~partial.swiftmodule"
+  }
+}

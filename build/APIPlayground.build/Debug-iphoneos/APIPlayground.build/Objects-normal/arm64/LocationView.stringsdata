@@ -1,0 +1,104 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/LocationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Location",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Map Style",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause",
+        "location": {
+          "startingColumn": 63,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "Track",
+        "location": {
+          "startingColumn": 73,
+          "startingLine": 92
+        }
+      },
+      {
+        "comment": "",
+        "key": "Standard",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Satellite",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 117
+        }
+      },
+      {
+        "comment": "",
+        "key": "Hybrid",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "Location Data",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Coordinates",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Address",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Acquiring location...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "±%lldm",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 261
+        }
+      }
+    ]
+  },
+  "version": 1
+}

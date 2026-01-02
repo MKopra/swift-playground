@@ -1,0 +1,224 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/PomodoroView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Pomodoro Focus",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Session %lld/%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Work Time",
+        "location": {
+          "startingColumn": 68,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Break Time",
+        "location": {
+          "startingColumn": 82,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Ready to Focus",
+        "location": {
+          "startingColumn": 98,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "FOCUS",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "REST",
+        "location": {
+          "startingColumn": 62,
+          "startingLine": 103
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progress",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Task Name",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Work Duration",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "Work",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Break Duration",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Break",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Sessions",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 162
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configuration",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Focus Session",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Resume",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pause",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 195
+        }
+      },
+      {
+        "comment": "",
+        "key": "Skip",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Session",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 217
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 226
+        }
+      },
+      {
+        "comment": "",
+        "key": "The Pomodoro Technique uses focused work intervals with short breaks to maintain concentration. Live Activity keeps your timer visible without unlocking your phone.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 240
+        }
+      },
+      {
+        "comment": "",
+        "key": "About",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 245
+        }
+      }
+    ]
+  },
+  "version": 1
+}

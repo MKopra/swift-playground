@@ -1,0 +1,80 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/TorchView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Torch",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 248
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mode",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%% Brightness",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 125
+        }
+      },
+      {
+        "comment": "",
+        "key": "ON",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "OFF",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Intensity",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 146
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "Speed:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld Hz",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 207
+        }
+      }
+    ]
+  },
+  "version": 1
+}

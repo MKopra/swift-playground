@@ -1,0 +1,184 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CompassView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Compass",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 261
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Accuracy",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 211
+        }
+      },
+      {
+        "comment": "",
+        "key": "True North",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 221
+        }
+      },
+      {
+        "comment": "",
+        "key": "Declination",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 231
+        }
+      },
+      {
+        "comment": "",
+        "key": "Altitude",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Waypoints",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 559
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add waypoints to navigate to saved locations",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 511
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Waypoints",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 509
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 563
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Waypoint",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 667
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 604
+        }
+      },
+      {
+        "comment": "",
+        "key": "Icon",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 608
+        }
+      },
+      {
+        "comment": "",
+        "key": "Color",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 627
+        }
+      },
+      {
+        "comment": "",
+        "key": "Location",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 644
+        }
+      },
+      {
+        "comment": "",
+        "key": "Waypoint name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 605
+        }
+      },
+      {
+        "comment": "",
+        "key": "Waiting for location...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 655
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use Current Location",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 645
+        }
+      },
+      {
+        "comment": "",
+        "key": "Latitude",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 660
+        }
+      },
+      {
+        "comment": "",
+        "key": "Longitude",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 662
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 671
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 674
+        }
+      }
+    ]
+  },
+  "version": 1
+}

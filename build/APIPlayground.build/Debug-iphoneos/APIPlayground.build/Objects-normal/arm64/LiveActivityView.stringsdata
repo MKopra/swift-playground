@@ -1,0 +1,264 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/LiveActivityView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Live Activity",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity Running",
+        "location": {
+          "startingColumn": 53,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Active Activity",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity ID:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "State:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Push Token:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 86
+        }
+      },
+      {
+        "comment": "",
+        "key": "Activity Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Activity Preview",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "Order #%@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ is on the way",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 134
+        }
+      },
+      {
+        "comment": "",
+        "key": "ETA",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "Dynamic Island (Compact)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld min",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 181
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preview",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 192
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Live Activity",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 208
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update Activity",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "End Activity",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 233
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "Order #",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 252
+        }
+      },
+      {
+        "comment": "",
+        "key": "Order",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 254
+        }
+      },
+      {
+        "comment": "",
+        "key": "Driver",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 261
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 263
+        }
+      },
+      {
+        "comment": "",
+        "key": "ETA (minutes)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 270
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delivery Progress",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 281
+        }
+      },
+      {
+        "comment": "",
+        "key": "Configuration",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 289
+        }
+      },
+      {
+        "comment": "",
+        "key": "Live Activities display real-time information on the Lock Screen and Dynamic Island. They require a Widget Extension target with ActivityAttributes defined.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 305
+        }
+      },
+      {
+        "comment": "",
+        "key": "This Demo",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 312
+        }
+      },
+      {
+        "comment": "",
+        "key": "This view simulates Live Activity UI and API calls. To display real Live Activities on Lock Screen/Dynamic Island, add a Widget Extension target to your project.",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 315
+        }
+      },
+      {
+        "comment": "",
+        "key": "API Information",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 323
+        }
+      }
+    ]
+  },
+  "version": 1
+}

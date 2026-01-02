@@ -1,0 +1,112 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/PencilKitView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Drawing",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 135
+        }
+      },
+      {
+        "comment": "",
+        "key": "Export Drawing",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Saved!",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 150
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save to Photos",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy to Clipboard",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your drawing has been saved to Photos.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 153
+        }
+      },
+      {
+        "comment": "",
+        "key": "Colors",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 263
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preset Colors",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 228
+        }
+      },
+      {
+        "comment": "",
+        "key": "Custom Color",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Color",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 267
+        }
+      }
+    ]
+  },
+  "version": 1
+}

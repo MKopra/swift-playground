@@ -1,0 +1,472 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/AppIntents.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Log Set",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mark the current set as complete",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Info",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Device Status",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 130
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play Haptic",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate QR Code",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 152
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Altitude",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 163
+        }
+      },
+      {
+        "comment": "",
+        "key": "Random Color",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Toggle Torch",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "3rd Party Status",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Device Status",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 205
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get current device battery, storage, and network status",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 206
+        }
+      },
+      {
+        "comment": "",
+        "key": "System Info",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get current CPU and RAM usage",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 256
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play Haptic",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 353
+        }
+      },
+      {
+        "comment": "",
+        "key": "Play a haptic feedback pattern on your device",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 354
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pattern",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 356
+        }
+      },
+      {
+        "comment": "",
+        "key": "Played %@ haptic",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 385
+        }
+      },
+      {
+        "comment": "",
+        "key": "Haptic Pattern",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 397
+        }
+      },
+      {
+        "comment": "",
+        "key": "Success",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 400
+        }
+      },
+      {
+        "comment": "",
+        "key": "Positive feedback",
+        "location": {
+          "startingColumn": 69,
+          "startingLine": 400
+        }
+      },
+      {
+        "comment": "",
+        "key": "Warning",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "Caution feedback",
+        "location": {
+          "startingColumn": 69,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "Error",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "Negative feedback",
+        "location": {
+          "startingColumn": 65,
+          "startingLine": 402
+        }
+      },
+      {
+        "comment": "",
+        "key": "Light Impact",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 403
+        }
+      },
+      {
+        "comment": "",
+        "key": "Subtle tap",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 403
+        }
+      },
+      {
+        "comment": "",
+        "key": "Medium Impact",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 404
+        }
+      },
+      {
+        "comment": "",
+        "key": "Standard tap",
+        "location": {
+          "startingColumn": 74,
+          "startingLine": 404
+        }
+      },
+      {
+        "comment": "",
+        "key": "Heavy Impact",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 405
+        }
+      },
+      {
+        "comment": "",
+        "key": "Strong tap",
+        "location": {
+          "startingColumn": 72,
+          "startingLine": 405
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate QR Code",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 412
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create a QR code from text or URL",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 413
+        }
+      },
+      {
+        "comment": "",
+        "key": "Content",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 415
+        }
+      },
+      {
+        "comment": "",
+        "key": "Size",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 418
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generated QR code for: %@%@",
+        "location": {
+          "startingColumn": 21,
+          "startingLine": 455
+        }
+      },
+      {
+        "comment": "",
+        "key": "Invalid input text",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 466
+        }
+      },
+      {
+        "comment": "",
+        "key": "Failed to generate QR code",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 467
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get Altitude",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 475
+        }
+      },
+      {
+        "comment": "",
+        "key": "Get your current altitude and barometric pressure",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 476
+        }
+      },
+      {
+        "comment": "",
+        "key": "🏔️ Altimeter Available: Yes\n📍 To get real-time altitude readings, open the Altimeter demo in the app.",
+        "location": {
+          "startingColumn": 75,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "Altimeter not available on this device",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 502
+        }
+      },
+      {
+        "comment": "",
+        "key": "Could not read altitude data",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 503
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate Random Color",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 511
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generate a random color and get its hex code",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 512
+        }
+      },
+      {
+        "comment": "",
+        "key": "Copy to Clipboard",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 514
+        }
+      },
+      {
+        "comment": "",
+        "key": "Toggle Torch",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 557
+        }
+      },
+      {
+        "comment": "",
+        "key": "Turn the device flashlight on or off",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 558
+        }
+      },
+      {
+        "comment": "",
+        "key": "State",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 560
+        }
+      },
+      {
+        "comment": "",
+        "key": "Torch is now %@",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 592
+        }
+      },
+      {
+        "comment": "",
+        "key": "Torch State",
+        "location": {
+          "startingColumn": 71,
+          "startingLine": 606
+        }
+      },
+      {
+        "comment": "",
+        "key": "On",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 609
+        }
+      },
+      {
+        "comment": "",
+        "key": "Off",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 610
+        }
+      },
+      {
+        "comment": "",
+        "key": "Toggle",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 611
+        }
+      },
+      {
+        "comment": "",
+        "key": "Torch not available on this device",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 621
+        }
+      },
+      {
+        "comment": "",
+        "key": "Failed to control torch",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 622
+        }
+      },
+      {
+        "comment": "",
+        "key": "3rd Party Status",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 630
+        }
+      },
+      {
+        "comment": "",
+        "key": "Check status of business services like Mixpanel, Sentry, OpenAI, etc.",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 631
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,192 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/BackgroundTasksView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Background Tasks",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scheduled",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Not Scheduled",
+        "location": {
+          "startingColumn": 54,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Last run: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 185
+        }
+      },
+      {
+        "comment": "",
+        "key": "Schedule",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 221
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "Execution Log",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 274
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 278
+        }
+      },
+      {
+        "comment": "",
+        "key": "No tasks have run yet",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 293
+        }
+      },
+      {
+        "comment": "",
+        "key": "Task Requirements",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 337
+        }
+      },
+      {
+        "comment": "",
+        "key": "Use these LLDB commands to test background tasks in Xcode:",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 379
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug Commands",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 375
+        }
+      },
+      {
+        "comment": "",
+        "key": "How Background Tasks Work",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 432
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 470
+        }
+      },
+      {
+        "comment": "",
+        "key": "Debug Info",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 535
+        }
+      },
+      {
+        "comment": "",
+        "key": "Registered Task Identifiers",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 492
+        }
+      },
+      {
+        "comment": "",
+        "key": "Info.plist Entry Required",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 499
+        }
+      },
+      {
+        "comment": "",
+        "key": "Registration Code",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 510
+        }
+      },
+      {
+        "comment": "",
+        "key": "Scheduling Code",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 522
+        }
+      },
+      {
+        "comment": "",
+        "key": "<key>BGTaskSchedulerPermittedIdentifiers</key>\n<array>\n    <string>%@</string>\n    <string>%@</string>\n</array>",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 500
+        }
+      },
+      {
+        "comment": "",
+        "key": "BGTaskScheduler.shared.register(\n    forTaskWithIdentifier: identifier,\n    using: nil\n) { task in\n    self.handleTask(task)\n}",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 511
+        }
+      },
+      {
+        "comment": "",
+        "key": "let request = BGAppRefreshTaskRequest(\n    identifier: identifier\n)\nrequest.earliestBeginDate = Date(\n    timeIntervalSinceNow: 15 * 60\n)\ntry BGTaskScheduler.shared.submit(request)",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 523
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 539
+        }
+      }
+    ]
+  },
+  "version": 1
+}

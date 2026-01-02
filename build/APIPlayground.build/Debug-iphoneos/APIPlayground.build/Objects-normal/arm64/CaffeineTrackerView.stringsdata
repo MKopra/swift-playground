@@ -1,0 +1,224 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlayground/CaffeineTrackerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Caffeine Tracker",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld mg",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 40
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tracking Caffeine",
+        "location": {
+          "startingColumn": 45,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Active Tracking",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Started %@ ago",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 56
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "mg remaining",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 85
+        }
+      },
+      {
+        "comment": "",
+        "key": "Started:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 118
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld mg",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld mg",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "Metabolized:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld mg",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 133
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear by: %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "0h",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 167
+        }
+      },
+      {
+        "comment": "",
+        "key": "6h",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 169
+        }
+      },
+      {
+        "comment": "",
+        "key": "12h",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Metabolism",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 178
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld mg caffeine",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 199
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Drink",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Tracking %@",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 234
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Another",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 245
+        }
+      },
+      {
+        "comment": "",
+        "key": "Stop",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "Controls",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 265
+        }
+      },
+      {
+        "comment": "",
+        "key": "Caffeine has a half-life of about 5 hours. This tracker uses exponential decay to estimate how much caffeine remains in your system, helping you know when it's safe to sleep.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 279
+        }
+      },
+      {
+        "comment": "",
+        "key": "About",
+        "location": {
+          "startingColumn": 19,
+          "startingLine": 284
+        }
+      }
+    ]
+  },
+  "version": 1
+}

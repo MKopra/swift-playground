@@ -1,0 +1,16 @@
+{
+  "source": "/Users/mattkopra/prod_repos/swift_playground/APIPlaygroundWatch/WatchInfoView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Device Info",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 42
+        }
+      }
+    ]
+  },
+  "version": 1
+}
