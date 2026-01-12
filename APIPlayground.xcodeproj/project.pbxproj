@@ -9,7 +9,10 @@
 /* Begin PBXBuildFile section */
 		04F105830D7B2ED10270B341 /* SharePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F72DA4353057D43C65D63B4 /* SharePlayView.swift */; };
 		16FBFB0078C65B9A5D3454C2 /* WatchMotionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2921641AC5FC5DBB52F5EB /* WatchMotionView.swift */; };
+		234C9882F61AAE815CE8FA63 /* ReferenceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145E8F79BCC6BFF0228360AD /* ReferenceImageView.swift */; };
+		2CFB0CD96AEE569630049842 /* CoreAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 015F85F35E124AF284CD6745 /* CoreAnimationView.swift */; };
 		2D652F2532C7C36C7CB2D071 /* PhotoMapModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BDA237E94454586F7A78CB /* PhotoMapModels.swift */; };
+		32D5615FA237DF5FDFB99D94 /* DarkFantasy.metal in Sources */ = {isa = PBXBuildFile; fileRef = C15F3B9A4DF12E4FA4EDFB02 /* DarkFantasy.metal */; };
 		43728489D801194677209CEF /* PhotoMapFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C4734AE1941EA80E8F3C91 /* PhotoMapFeature.swift */; };
 		4532CBAA83F5749D26AC0A0C /* ARKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344437EEC108B359522E14D3 /* ARKitView.swift */; };
 		4CF6E2F5B6010BA503EFF21A /* LiveTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7A9E2ADB40BF394AF24BEB /* LiveTextView.swift */; };
@@ -19,6 +22,7 @@
 		53D899615DD17F6E628D3EDC /* CloudKitPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E6A6B38B973D1EE0ECE97A /* CloudKitPhotoService.swift */; };
 		64EE955D0812365B8E2B4E64 /* BackgroundTasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B20F8A7BE728A6044464B /* BackgroundTasksView.swift */; };
 		65AE75CBCBCE4525ABCA98D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D46E851D88195B4B960844 /* Assets.xcassets */; };
+		67B64F4DFEEE81F055D99459 /* darkfantasy.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E49EF9DC4B9B4EEEC53798D /* darkfantasy.png */; };
 		6CD1C2EC06E83AD1A9B01C2A /* WatchConnectivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B685FB7CFD6F79B1DA3FB769 /* WatchConnectivityView.swift */; };
 		7558679FDAC48A22D92FFE2A /* SpotlightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E517409730CACCA5597E9 /* SpotlightView.swift */; };
 		783C4445C235AEA92614AA0C /* WatchHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1D3AEE70EF25047FB0E6F /* WatchHapticsView.swift */; };
@@ -62,6 +66,7 @@
 		C30C231C56BE123ECCDDF705 /* PhotoMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A50B60145308713329B1126 /* PhotoMapView.swift */; };
 		C5CCE1458517984CE0EF4FB2 /* PhotoStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7568109F0F355CE906EDD /* PhotoStorageService.swift */; };
 		CA1FE43193A768E69AAA5731 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2900AEA1908B5D8798AB70C /* PencilKitView.swift */; };
+		CB87C90B75E95C9B893462BC /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F5E625CF5446B5FB085BAE /* MetalView.swift */; };
 		CC111111111111111111111A /* PlaygroundWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */; };
 		CC222222222222222222222A /* DeliveryLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC222222222222222222222B /* DeliveryLiveActivity.swift */; };
 		CC333333333333333333333A /* DeliveryActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB111111111111111111111B /* DeliveryActivityAttributes.swift */; };
@@ -74,9 +79,11 @@
 		CCCCCCCCCCCCCCCCCCCCCCA /* SystemMonitorControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCCCCCCCCCCCCCCCCCCCCCC /* SystemMonitorControl.swift */; };
 		CCF54E65EAF1BE1BBC9B703A /* CallKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753AF2AA7EFB02CECCD97B2 /* CallKitView.swift */; };
 		CEE38FD5FECB74750926C654 /* WatchHealthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E756BA826DD03F390A7E7697 /* WatchHealthView.swift */; };
+		D051A11FB4FBE48B260B5CDF /* SpriteKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA0C2F1C70E0AC7C971C411 /* SpriteKitView.swift */; };
 		D811BCE3926ECA3F6DE782EF /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1462852281FF1422B4C84C69 /* PhotoCaptureView.swift */; };
 		DD111111111111111111111A /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD111111111111111111111B /* ShareViewController.swift */; };
 		DD222222222222222222222A /* APIInspector.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = DD000000000000000000000A /* APIInspector.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DECDF472397B9ADFFD245CC5 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308D5E6A809ED4A26EF92939 /* SceneKitView.swift */; };
 		E3754EFCCFAB111ACDA2889B /* MLVisionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9112E27C6EAB57B35CAE35 /* MLVisionView.swift */; };
 		E820682A206D0F1E13CCCCEF /* TranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EF47DC460289BF94F49763 /* TranslationView.swift */; };
 		E9EF73DFE33A12A947FD2AE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9E036708EAD2EE8C57F48 /* ContentView.swift */; };
@@ -134,13 +141,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		015F85F35E124AF284CD6745 /* CoreAnimationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoreAnimationView.swift; sourceTree = "<group>"; };
+		01F5E625CF5446B5FB085BAE /* MetalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
 		03C1D3AEE70EF25047FB0E6F /* WatchHapticsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchHapticsView.swift; sourceTree = "<group>"; };
 		0C2921641AC5FC5DBB52F5EB /* WatchMotionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchMotionView.swift; sourceTree = "<group>"; };
+		145E8F79BCC6BFF0228360AD /* ReferenceImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReferenceImageView.swift; sourceTree = "<group>"; };
 		1462852281FF1422B4C84C69 /* PhotoCaptureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoCaptureView.swift; path = ../../PhotoMap/PhotoCaptureView.swift; sourceTree = "<group>"; };
 		1A50B60145308713329B1126 /* PhotoMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoMapView.swift; path = ../../PhotoMap/PhotoMapView.swift; sourceTree = "<group>"; };
 		1B0E76356585683FC2C7AB60 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
 		26616FC2F1F0158AA2B7A44D /* ShazamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShazamView.swift; sourceTree = "<group>"; };
 		282104F8BDF80288123F8C2C /* PhotoDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoDetailView.swift; path = ../../PhotoMap/PhotoDetailView.swift; sourceTree = "<group>"; };
+		308D5E6A809ED4A26EF92939 /* SceneKitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		344437EEC108B359522E14D3 /* ARKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitView.swift; sourceTree = "<group>"; };
 		34F377B37A190861584169E0 /* APIPlaygroundWatchApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIPlaygroundWatchApp.swift; sourceTree = "<group>"; };
 		35C4734AE1941EA80E8F3C91 /* PhotoMapFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoMapFeature.swift; path = ../../PhotoMap/PhotoMapFeature.swift; sourceTree = "<group>"; };
@@ -152,6 +163,7 @@
 		6C5C3CDD353889AEB661A866 /* ScreenRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenRecordView.swift; sourceTree = "<group>"; };
 		6F72DA4353057D43C65D63B4 /* SharePlayView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SharePlayView.swift; sourceTree = "<group>"; };
 		77D46E851D88195B4B960844 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E49EF9DC4B9B4EEEC53798D /* darkfantasy.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = darkfantasy.png; sourceTree = "<group>"; };
 		8D7A9E2ADB40BF394AF24BEB /* LiveTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextView.swift; sourceTree = "<group>"; };
 		93D9E036708EAD2EE8C57F48 /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9608B91C98C481EE1104BA01 /* APIPlaygroundWatch.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = APIPlaygroundWatch.entitlements; sourceTree = "<group>"; };
@@ -196,6 +208,7 @@
 		BB333333333333333333333B /* BreathingActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingActivityAttributes.swift; sourceTree = "<group>"; };
 		BB444444444444444444444B /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
 		BB67E791F2EFF5C24A9C2DD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C15F3B9A4DF12E4FA4EDFB02 /* DarkFantasy.metal */ = {isa = PBXFileReference; includeInIndex = 1; path = DarkFantasy.metal; sourceTree = "<group>"; };
 		C6D8960B69FF801F87C1DBC9 /* WatchInfoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchInfoView.swift; sourceTree = "<group>"; };
 		CC000000000000000000000A /* PlaygroundWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PlaygroundWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC111111111111111111111B /* PlaygroundWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundWidgetsBundle.swift; sourceTree = "<group>"; };
@@ -226,6 +239,7 @@
 		EEAAAAAAAAAAAAAAAAAAAAAB /* EggTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerView.swift; sourceTree = "<group>"; };
 		F3227EBA3D866D2406926213 /* HealthKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitView.swift; sourceTree = "<group>"; };
 		F8C5104646F74D9D8CA2FDA5 /* NFCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCView.swift; sourceTree = "<group>"; };
+		FCA0C2F1C70E0AC7C971C411 /* SpriteKitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SpriteKitView.swift; sourceTree = "<group>"; };
 		FCFF1C5FB1CCBCE4F02DA237 /* WatchCloudKitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchCloudKitView.swift; sourceTree = "<group>"; };
 		FF111111111111111111111B /* AllLiveActivities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllLiveActivities.swift; sourceTree = "<group>"; };
 		GG111111111111111111111B /* DeviceInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceInfoView.swift; sourceTree = "<group>"; };
@@ -266,6 +280,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FD100B536B6096197EB06FC /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				015F85F35E124AF284CD6745 /* CoreAnimationView.swift */,
+				01F5E625CF5446B5FB085BAE /* MetalView.swift */,
+				308D5E6A809ED4A26EF92939 /* SceneKitView.swift */,
+				FCA0C2F1C70E0AC7C971C411 /* SpriteKitView.swift */,
+				C15F3B9A4DF12E4FA4EDFB02 /* DarkFantasy.metal */,
+				7E49EF9DC4B9B4EEEC53798D /* darkfantasy.png */,
+				145E8F79BCC6BFF0228360AD /* ReferenceImageView.swift */,
+			);
+			name = Graphics;
+			path = Graphics;
+			sourceTree = "<group>";
+		};
 		2302748DDFE15E9E639D0889 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +406,7 @@
 				E6E37DE717D1683CD5207504 /* CloudKitView.swift */,
 				62DE476125D1E25F47CDA192 /* PhotoMap */,
 				6C47E7CC86FE5E363EC67D72 /* GraphicsView.swift */,
+				1FD100B536B6096197EB06FC /* Graphics */,
 			);
 			path = APIPlayground;
 			sourceTree = "<group>";
@@ -583,6 +613,7 @@
 			files = (
 				A1000007233D8F0000000001 /* Preview Assets.xcassets in Resources */,
 				A1000005233D8F0000000001 /* Assets.xcassets in Resources */,
+				67B64F4DFEEE81F055D99459 /* darkfantasy.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -689,6 +720,12 @@
 				EFC7EE97C60F109D1CCA4A22 /* PhotoDetailView.swift in Sources */,
 				C5CCE1458517984CE0EF4FB2 /* PhotoStorageService.swift in Sources */,
 				52A04ACCB46578E97BC03169 /* GraphicsView.swift in Sources */,
+				2CFB0CD96AEE569630049842 /* CoreAnimationView.swift in Sources */,
+				CB87C90B75E95C9B893462BC /* MetalView.swift in Sources */,
+				DECDF472397B9ADFFD245CC5 /* SceneKitView.swift in Sources */,
+				D051A11FB4FBE48B260B5CDF /* SpriteKitView.swift in Sources */,
+				32D5615FA237DF5FDFB99D94 /* DarkFantasy.metal in Sources */,
+				234C9882F61AAE815CE8FA63 /* ReferenceImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

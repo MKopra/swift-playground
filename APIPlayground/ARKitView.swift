@@ -1158,6 +1158,7 @@ extension ARManager: ARSessionDelegate {
 
     @MainActor
     private func highlightDetectedImage(_ imageAnchor: ARImageAnchor) {
+        #if !targetEnvironment(simulator)
         guard let arView = arView else { return }
 
         let size = imageAnchor.referenceImage.physicalSize
@@ -1171,6 +1172,7 @@ extension ARManager: ARSessionDelegate {
         anchor.addChild(modelEntity)
         arView.scene.addAnchor(anchor)
         placedObjects.append(anchor)
+        #endif
     }
 }
 
