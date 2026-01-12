@@ -50,10 +50,31 @@ class AppDelegate: NSObject, UIApplicationDelegate, UNUserNotificationCenterDele
     }
 }
 
+// Deep link destination enum
+enum DeepLinkDestination: Identifiable {
+    case metal
+    case metalGrid
+    case referenceGrid
+    case deviceInfo
+
+    var id: String {
+        switch self {
+        case .metal: return "metal"
+        case .metalGrid: return "metalGrid"
+        case .referenceGrid: return "referenceGrid"
+        case .deviceInfo: return "deviceInfo"
+        }
+    }
+}
+
 // Navigation state manager
 class NavigationManager: ObservableObject {
     static let shared = NavigationManager()
     @Published var navigateToDeviceInfo = false
+    @Published var navigateToMetal = false
+    @Published var navigateToMetalGrid = false
+    @Published var navigateToReferenceGrid = false
+    @Published var deepLinkDestination: DeepLinkDestination?
 }
 
 @main
@@ -63,12 +84,20 @@ struct APIPlaygroundApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
                 .environmentObject(navigationManager)
-                .onOpenURL { url in
-                    handleDeepLink(url)
-                }
         }
+    }
+}
+
+struct RootView: View {
+    @EnvironmentObject var navigationManager: NavigationManager
+
+    var body: some View {
+        ContentView()
+            .onOpenURL { url in
+                handleDeepLink(url)
+            }
     }
 
     private func handleDeepLink(_ url: URL) {
@@ -77,6 +106,12 @@ struct APIPlaygroundApp: App {
         switch url.host {
         case "deviceinfo", "systemstats", "monitor":
             navigationManager.navigateToDeviceInfo = true
+        case "metal", "shader":
+            navigationManager.navigateToMetal = true
+        case "metal-grid", "shader-grid", "metalgrid":
+            navigationManager.navigateToMetalGrid = true
+        case "reference", "reference-grid", "refgrid":
+            navigationManager.navigateToReferenceGrid = true
         default:
             break
         }

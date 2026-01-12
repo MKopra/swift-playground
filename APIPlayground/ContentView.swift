@@ -8,9 +8,18 @@ struct Feature: Identifiable, Hashable {
     let color: Color
 }
 
+enum FullScreenDestination: String, Identifiable {
+    case metal
+    case metalGrid
+    case referenceGrid
+
+    var id: String { rawValue }
+}
+
 struct ContentView: View {
     @EnvironmentObject var navigationManager: NavigationManager
     @State private var navigationPath = NavigationPath()
+    @State private var fullScreenDestination: FullScreenDestination?
 
     private let features: [Feature] = [
         Feature(title: "Camera", icon: "camera.fill", color: .gray),
@@ -58,6 +67,25 @@ struct ContentView: View {
 
     private var deviceInfoFeature: Feature {
         features.first { $0.title == "Device Info" }!
+    }
+
+    private func checkAndHandleDeepLinks() {
+        if navigationManager.navigateToDeviceInfo {
+            navigationPath.append(deviceInfoFeature)
+            navigationManager.navigateToDeviceInfo = false
+        }
+        if navigationManager.navigateToMetal {
+            fullScreenDestination = .metal
+            navigationManager.navigateToMetal = false
+        }
+        if navigationManager.navigateToMetalGrid {
+            fullScreenDestination = .metalGrid
+            navigationManager.navigateToMetalGrid = false
+        }
+        if navigationManager.navigateToReferenceGrid {
+            fullScreenDestination = .referenceGrid
+            navigationManager.navigateToReferenceGrid = false
+        }
     }
 
     var body: some View {
@@ -133,10 +161,51 @@ struct ContentView: View {
                 }
             }
         }
+        .onAppear {
+            // Handle deep links that arrived before view appeared
+            DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                checkAndHandleDeepLinks()
+            }
+        }
+        .task {
+            // Also check after a brief delay for cold start deep links
+            try? await Task.sleep(nanoseconds: 500_000_000)  // 0.5 seconds
+            await MainActor.run {
+                checkAndHandleDeepLinks()
+            }
+        }
         .onChange(of: navigationManager.navigateToDeviceInfo) { _, shouldNavigate in
             if shouldNavigate {
                 navigationPath.append(deviceInfoFeature)
                 navigationManager.navigateToDeviceInfo = false
+            }
+        }
+        .onChange(of: navigationManager.navigateToMetal) { _, shouldNavigate in
+            if shouldNavigate {
+                fullScreenDestination = .metal
+                navigationManager.navigateToMetal = false
+            }
+        }
+        .onChange(of: navigationManager.navigateToMetalGrid) { _, shouldNavigate in
+            if shouldNavigate {
+                fullScreenDestination = .metalGrid
+                navigationManager.navigateToMetalGrid = false
+            }
+        }
+        .onChange(of: navigationManager.navigateToReferenceGrid) { _, shouldNavigate in
+            if shouldNavigate {
+                fullScreenDestination = .referenceGrid
+                navigationManager.navigateToReferenceGrid = false
+            }
+        }
+        .fullScreenCover(item: $fullScreenDestination) { destination in
+            switch destination {
+            case .metal:
+                MetalView(showGrid: false)
+            case .metalGrid:
+                MetalView(showGrid: true)
+            case .referenceGrid:
+                ReferenceImageView(showGrid: true)
             }
         }
     }
